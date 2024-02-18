@@ -1,24 +1,9 @@
 # knowledge-graphs-manufacturing
 Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A Comprehensive Review
 
-## Features
+(work in progess)
 
-- **In-Depth Analyses**: Explore detailed discussions on the core principles of Industry 5.0, including human-AI collaboration, sustainability, and personalized production.
-- **Latest Research**: Access a curated collection of the latest research papers, articles, and case studies relevant to Industry 5.0.
-- **Technological Insights**: Discover the cutting-edge technologies driving Industry 5.0, from AI and machine learning to robotics and IoT.
-- **Community Contributions**: Engage with contributions from industry experts, researchers, and practitioners. Share your insights and learn from the community.
-- **Resource Library**: A comprehensive library of resources, including tutorials, code samples, and best practices for implementing Industry 5.0 strategies.
-
-## Getting Started
-
-To get started, clone this repository and explore the `docs` folder for introductory guides and tutorials. Join our community forums to discuss ideas, challenges, and solutions related to Industry 5.0.
-
-## Contributions
-
-We welcome contributions from all enthusiasts, professionals, and academics. Please see our contribution guidelines for more information.
-
-
-### Bibliography
+## Bibliography
 
 - Hoch, T., Heinzl, B., Czech, G., Khan, M., Waibel, P., Bachhofner, S., Kiesling, E., & Moser, B. (2022). Teaming.AI: Enabling Human-AI Teaming Intelligence in Manufacturing. In M. Zelm, A. Boza, R. D. León, & R. Rodríguez-Rodríguez (Eds.), *Proceedings of Interoperability for Enterprise Systems and Applications Workshops co-located with 11th International Conference on Interoperability for Enterprise Systems and Applications (I-ESA 2022), Valencia, Spain, March 23-25, 2022* (Vol. 3214). CEUR-WS.org. [URL](https://ceur-ws.org/Vol-3214/WS5Paper6.pdf)
 
