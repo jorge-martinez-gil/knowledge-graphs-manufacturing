@@ -4,6 +4,9 @@ Knowledge Graphs (KGs) hold the potential to revolutionize the manufacturing ind
 
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--031--46452--2_4-blue.svg)](https://doi.org/10.1007/978-3-031-46452-2_4)
 
+![Knowledge Graphs in Manufacturing](attachment:image.png)
+
+
 # Grouped Reviewed Papers by Year
 
 ## 2022
