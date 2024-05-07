@@ -15,85 +15,85 @@ Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A Comp
 
 - Noy, N. F., Gao, Y., Jain, A., Narayanan, A., Patterson, A., & Taylor, J. (2019). Industry-scale knowledge graphs: lessons and challenges. *Commun. ACM*, 62(8), 36–43. [https://doi.org/10.1145/3331166](https://doi.org/10.1145/3331166)
 
-- Hermann, M., Pentek, T., & Otto, B. (2016). Design principles for industrie 4.0 scenarios. In *2016 49th Hawaii International Conference on System Sciences (HICSS)* (pp. 3928–3937). IEEE.
+- Hermann, M., Pentek, T., & Otto, B. (2016). Design principles for industrie 4.0 scenarios. In *2016 49th Hawaii International Conference on System Sciences (HICSS)* (pp. 3928–3937). IEEE. [https://doi.org/10.1109/HICSS.2016.488](https://doi.org/10.1109/HICSS.2016.488).
 
-- Duan, W., & Chiang, Y.-Y. (2016). Building knowledge graph from public data for predictive analysis: a case study on predicting technology future in space and time. In *Proceedings of the 5th ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data* (pp. 7–13).
+- Duan, W., & Chiang, Y.-Y. (2016). Building knowledge graph from public data for predictive analysis: a case study on predicting technology future in space and time. In *Proceedings of the 5th ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data* (pp. 7–13). [https://doi.org/10.1145/3006386.3006388](https://doi.org/10.1145/3006386.3006388)
 
-- Zhang, X., Liu, X., Li, X., & Pan, D. (2017). MMKG: an approach to generate metallic materials knowledge graph based on DBpedia and Wikipedia. *Computer Physics Communications*, 211, 98–112. Elsevier.
+- Zhang, X., Liu, X., Li, X., & Pan, D. (2017). MMKG: an approach to generate metallic materials knowledge graph based on DBpedia and Wikipedia. *Computer Physics Communications*, 211, 98–112. Elsevier. [https://doi.org/10.1016/j.cpc.2016.07.005](https://doi.org/10.1016/j.cpc.2016.07.005)
 
-- Peroni, S., & Vitali, F. (2017). Interfacing fast-fashion design industries with Semantic Web technologies: The case of Imperial Fashion. *Journal of Web Semantics*, 44, 37–53. Elsevier.
+- Peroni, S., & Vitali, F. (2017). Interfacing fast-fashion design industries with Semantic Web technologies: The case of Imperial Fashion. *Journal of Web Semantics*, 44, 37–53. Elsevier. [https://doi.org/10.1016/j.websem.2017.06.001](https://doi.org/10.1016/j.websem.2017.06.001)
 
-- Banerjee, A., Dalal, R., Mittal, S., & Joshi, K. P. (2017). Generating Digital Twin Models using Knowledge Graphs for Industrial Production Lines. In *Proceedings of the 2017 ACM on Web Science Conference* (pp. 425–430).
+- Banerjee, A., Dalal, R., Mittal, S., & Joshi, K. P. (2017). Generating Digital Twin Models using Knowledge Graphs for Industrial Production Lines. In *Proceedings of the 2017 ACM on Web Science Conference* (pp. 425–430). [https://ebiquity.umbc.edu/get/a/publication/850.pdf](https://ebiquity.umbc.edu/get/a/publication/850.pdf)
 
-- Zhao, Y., Liu, Q., & Xu, W. (2017). Open industrial knowledge graph development for intelligent manufacturing service matchmaking. In *2017 International Conference on Industrial Informatics-Computing Technology, Intelligent Technology, Industrial Information Integration (ICIICII)* (pp. 194–198). IEEE.
+- Zhao, Y., Liu, Q., & Xu, W. (2017). Open industrial knowledge graph development for intelligent manufacturing service matchmaking. In *2017 International Conference on Industrial Informatics-Computing Technology, Intelligent Technology, Industrial Information Integration (ICIICII)* (pp. 194–198). IEEE. [https://ieeexplore.ieee.org/abstract/document/8328618/](https://ieeexplore.ieee.org/abstract/document/8328618/)
 
-- Ringsquandl, M., Lamparter, S., Lepratti, R., & Kröger, P. (2017). Knowledge Fusion of Manufacturing Operations Data Using Representation Learning. In *IFIP International Conference on Advances in Production Management Systems* (pp. 302–310). Springer.
+- Ringsquandl, M., Lamparter, S., Lepratti, R., & Kröger, P. (2017). Knowledge Fusion of Manufacturing Operations Data Using Representation Learning. In *IFIP International Conference on Advances in Production Management Systems* (pp. 302–310). Springer. [https://doi.org/10.1007/978-3-319-66926-7_35](https://doi.org/10.1007/978-3-319-66926-7_35)
 
-- Ringsquandl, M., Kharlamov, E., Stepanova, D., Lamparter, S., Lepratti, R., Horrocks, I., & Kröger, P. (2017). On event-driven knowledge graph completion in digital factories. In *2017 IEEE International Conference on Big Data (Big Data)* (pp. 1676–1681). IEEE.
+- Ringsquandl, M., Kharlamov, E., Stepanova, D., Lamparter, S., Lepratti, R., Horrocks, I., & Kröger, P. (2017). On event-driven knowledge graph completion in digital factories. In *2017 IEEE International Conference on Big Data (Big Data)* (pp. 1676–1681). IEEE. [https://doi.org/10.1109/BigData.2017.8258105](https://doi.org/10.1109/BigData.2017.8258105)
 
-- Garofalo, M., Pellegrino, M. A., Altabba, A., & Cochez, M. (2018). Leveraging knowledge graph embedding techniques for industry 4.0 use cases. In *Cyber Defence in Industry 4.0 Systems and Related Logistics and IT Infrastructures* (pp. 10–26). IOS Press.
+- Garofalo, M., Pellegrino, M. A., Altabba, A., & Cochez, M. (2018). Leveraging knowledge graph embedding techniques for industry 4.0 use cases. In *Cyber Defence in Industry 4.0 Systems and Related Logistics and IT Infrastructures* (pp. 10–26). IOS Press. [https://ebooks.iospress.nl/doi/10.3233/978-1-61499-888-4-10](https://ebooks.iospress.nl/doi/10.3233/978-1-61499-888-4-10)
 
-- Li, X., Zhang, S., Huang, R., Huang, B., Xu, C., & Kuang, B. (2018). Structured modeling of heterogeneous CAM model based on process knowledge graph. *International Journal of Advanced Manufacturing Technology, 96*(9-12), 4173-4193. Springer.
+- Li, X., Zhang, S., Huang, R., Huang, B., Xu, C., & Kuang, B. (2018). Structured modeling of heterogeneous CAM model based on process knowledge graph. *International Journal of Advanced Manufacturing Technology, 96*(9-12), 4173-4193. Springer. [https://link.springer.com/article/10.1007/s00170-018-1862-8](https://link.springer.com/article/10.1007/s00170-018-1862-8)
 
-- Fu, L., Bai, Y., & Zhong, Z. (2018). Constructing a vertical knowledge graph for non-traditional machining industry. In *2018 IEEE 15th International Conference on Networking, Sensing and Control (ICNSC)* (pp. 1-5). IEEE.
+- Fu, L., Bai, Y., & Zhong, Z. (2018). Constructing a vertical knowledge graph for non-traditional machining industry. In *2018 IEEE 15th International Conference on Networking, Sensing and Control (ICNSC)* (pp. 1-5). IEEE. [https://doi.org/10.1109/ICNSC.2018.8361341](https://doi.org/10.1109/ICNSC.2018.8361341)
 
-- Grangel-González, I., Halilaj, L., Vidal, M.-E., Lohmann, S., Auer, S., & Müller, A. W. (2018). Seamless integration of cyber-physical systems in knowledge graphs. In *Proceedings of the 33rd Annual ACM Symposium on Applied Computing* (pp. 2000-2003).
+- Grangel-González, I., Halilaj, L., Vidal, M.-E., Lohmann, S., Auer, S., & Müller, A. W. (2018). Seamless integration of cyber-physical systems in knowledge graphs. In *Proceedings of the 33rd Annual ACM Symposium on Applied Computing* (pp. 2000-2003). [https://doi.org/10.1145/3167132.3167435](https://doi.org/10.1145/3167132.3167435)
 
-- Grangel-González, I., Halilaj, L., Vidal, M.-E., Rana, O., Lohmann, S., Auer, S., & Müller, A. W. (2018). Knowledge Graphs for Semantically Integrating Cyber-Physical Systems. In *International Conference on Database and Expert Systems Applications* (pp. 184-199). Springer.
+- Grangel-González, I., Halilaj, L., Vidal, M.-E., Rana, O., Lohmann, S., Auer, S., & Müller, A. W. (2018). Knowledge Graphs for Semantically Integrating Cyber-Physical Systems. In *International Conference on Database and Expert Systems Applications* (pp. 184-199). Springer. [https://doi.org/10.1007/978-3-319-98809-2_12](https://doi.org/10.1007/978-3-319-98809-2_12)
 
-- Haase, P., Herzig, D. M., Kozlov, A., Nikolov, A., & Trame, J. (2019). metaphactory: A platform for knowledge graph management. *Semantic Web, 10*(6), 1109-1125. IOS Press.
+- Haase, P., Herzig, D. M., Kozlov, A., Nikolov, A., & Trame, J. (2019). metaphactory: A platform for knowledge graph management. *Semantic Web, 10*(6), 1109-1125. IOS Press. [https://doi.org/10.3233/SW-190360](https://doi.org/10.3233/SW-190360)
 
-- Zhao, M., Wang, H., Guo, J., Liu, D., Xie, C., Liu, Q., & Cheng, Z. (2019). Construction of an industrial knowledge graph for unstructured Chinese text learning. *Applied Sciences, 9*(13), 2720. Multidisciplinary Digital Publishing Institute.
+- Zhao, M., Wang, H., Guo, J., Liu, D., Xie, C., Liu, Q., & Cheng, Z. (2019). Construction of an industrial knowledge graph for unstructured Chinese text learning. *Applied Sciences, 9*(13), 2720. Multidisciplinary Digital Publishing Institute. [https://www.mdpi.com/2076-3417/9/13/2720](https://www.mdpi.com/2076-3417/9/13/2720)
 
-- He, L., & Jiang, P. (2019). Manufacturing Knowledge Graph: A Connectivism to Answer Production Problems Query With Knowledge Reuse. *IEEE Access, 7*, 101231-101244. IEEE.
+- He, L., & Jiang, P. (2019). Manufacturing Knowledge Graph: A Connectivism to Answer Production Problems Query With Knowledge Reuse. *IEEE Access, 7*, 101231-101244. IEEE. [https://doi.org/10.1109/ACCESS.2019.2931361](https://doi.org/10.1109/ACCESS.2019.2931361)
 
-- Zhou, X., Lim, M. Q., & Kraft, M. (2020). A Smart Contract-based agent marketplace for the J-Park Simulator--a Knowledge Graph for the process industry.
+- Zhou, X., Lim, M. Q., & Kraft, M. (2020). A Smart Contract-based agent marketplace for the J-Park Simulator--a Knowledge Graph for the process industry. [https://doi.org/10.1016/j.compchemeng.2020.106896](https://doi.org/10.1016/j.compchemeng.2020.106896)
 
-- Tushkanova, O., & Samoylov, V. (2019). Knowledge Net: Model and System for Accumulation, Representation, and Use of Knowledge. *IFAC-PapersOnLine, 52*(13), 1150-1155. Elsevier.
+- Tushkanova, O., & Samoylov, V. (2019). Knowledge Net: Model and System for Accumulation, Representation, and Use of Knowledge. *IFAC-PapersOnLine, 52*(13), 1150-1155. Elsevier. [https://www.sciencedirect.com/science/article/pii/S2405896319313291](https://www.sciencedirect.com/science/article/pii/S2405896319313291)
 
-- Eibeck, A., Lim, M. Q., & Kraft, M. (2019). J-Park Simulator: An ontology-based platform for cross-domain scenarios in process industry. *Computers & Chemical Engineering, 131*, 106586. Elsevier.
+- Eibeck, A., Lim, M. Q., & Kraft, M. (2019). J-Park Simulator: An ontology-based platform for cross-domain scenarios in process industry. *Computers & Chemical Engineering, 131*, 106586. Elsevier. [https://doi.org/10.1016/j.compchemeng.2019.106586](https://doi.org/10.1016/j.compchemeng.2019.106586)
 
-- Liebig, T., Maisenbacher, A., Opitz, M., Seyler, J. R., Sudra, G., & Wissmann, J. (2019). Building a Knowledge Graph for Products and Solutions in the Automation Industry. In *European Semantic Web Conference Workshop*.
+- Liebig, T., Maisenbacher, A., Opitz, M., Seyler, J. R., Sudra, G., & Wissmann, J. (2019). Building a Knowledge Graph for Products and Solutions in the Automation Industry. In *European Semantic Web Conference Workshop*. [https://ceur-ws.org/Vol-2489/paper2.pdf](https://ceur-ws.org/Vol-2489/paper2.pdf)
 
-- Kattepur, A. (2019). RoboPlanner: autonomous robotic action planning via knowledge graph queries. In *Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing* (pp. 953-956).
+- Kattepur, A. (2019). RoboPlanner: autonomous robotic action planning via knowledge graph queries. In *Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing* (pp. 953-956). [https://doi.org/10.1145/3297280.3297568](https://doi.org/10.1145/3297280.3297568)
 
-- Dombrowski, U., Reiswich, A., & Imdahl, C. (2019). Knowledge Graphs for an Automated Information Provision in the Factory Planning. In *2019 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)* (pp. 1074-1078). IEEE.
+- Dombrowski, U., Reiswich, A., & Imdahl, C. (2019). Knowledge Graphs for an Automated Information Provision in the Factory Planning. In *2019 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)* (pp. 1074-1078). IEEE. [https://doi.org/10.1109/IEEM44572.2019.8978887](https://doi.org/10.1109/IEEM44572.2019.8978887)
 
-- Aggour, K. S., Kumar, V. S., Cuddihy, P., Williams, J. W., Gupta, V., Dial, L., Hanlon, T., Gambone, J., & Vinciquerra, J. (2019). Federated Multimodal Big Data Storage & Analytics Platform for Additive Manufacturing. In *2019 IEEE International Conference on Big Data (Big Data)* (pp. 1729-1738). IEEE.
+- Aggour, K. S., Kumar, V. S., Cuddihy, P., Williams, J. W., Gupta, V., Dial, L., Hanlon, T., Gambone, J., & Vinciquerra, J. (2019). Federated Multimodal Big Data Storage & Analytics Platform for Additive Manufacturing. In *2019 IEEE International Conference on Big Data (Big Data)* (pp. 1729-1738). IEEE. [https://doi.org/10.1109/BigData47090.2019.9006495](https://doi.org/10.1109/BigData47090.2019.9006495)
 
-- Li, R., Dai, W., He, S., Chen, X., & Yang, G. (2019). A Knowledge Graph Framework for Software-Defined Industrial Cyber-Physical Systems. In *IECON 2019-45th Annual Conference of the IEEE Industrial Electronics Society* (Vol. 1, pp. 2877-2882). IEEE.
+- Li, R., Dai, W., He, S., Chen, X., & Yang, G. (2019). A Knowledge Graph Framework for Software-Defined Industrial Cyber-Physical Systems. In *IECON 2019-45th Annual Conference of the IEEE Industrial Electronics Society* (Vol. 1, pp. 2877-2882). IEEE. [https://doi.org/10.1109/IECON.2019.8927285](https://doi.org/10.1109/IECON.2019.8927285)
 
-- Nayak, A., Kesri, V., & Dubey, R. K. (2020). Knowledge Graph based Automated Generation of Test Cases in Software Engineering. In *Proceedings of the 7th ACM IKDD CoDS and 25th COMAD* (pp. 289-295).
+- Nayak, A., Kesri, V., & Dubey, R. K. (2020). Knowledge Graph based Automated Generation of Test Cases in Software Engineering. In *Proceedings of the 7th ACM IKDD CoDS and 25th COMAD* (pp. 289-295).[https://doi.org/10.1145/3371158.3371202](https://doi.org/10.1145/3371158.3371202)
 
-- Kalaycı, E. G., Grangel González, I., Lösch, F., Xiao, G., ul-Mehdi, A., Kharlamov, E., & Calvanese, D. (2020). Semantic integration of Bosch manufacturing data using virtual knowledge graphs. In *The Semantic Web--ISWC 2020: 19th International Semantic Web Conference, Athens, Greece, November 2-6, 2020, Proceedings, Part II 19* (pp. 464-481). Springer.
+- Kalaycı, E. G., Grangel González, I., Lösch, F., Xiao, G., ul-Mehdi, A., Kharlamov, E., & Calvanese, D. (2020). Semantic integration of Bosch manufacturing data using virtual knowledge graphs. In *The Semantic Web--ISWC 2020: 19th International Semantic Web Conference, Athens, Greece, November 2-6, 2020, Proceedings, Part II 19* (pp. 464-481). Springer. [https://doi.org/10.1007/978-3-030-62466-8_29](https://doi.org/10.1007/978-3-030-62466-8_29)
 
-- Bader, S. R., Grangel-Gonzalez, I., Nanjappa, P., Vidal, M.-E., & Maleshkova, M. (2020). A knowledge graph for industry 4.0. In *The Semantic Web: 17th International Conference, ESWC 2020, Heraklion, Crete, Greece, May 31-June 4, 2020, Proceedings 17* (pp. 465-480). Springer.
+- Bader, S. R., Grangel-Gonzalez, I., Nanjappa, P., Vidal, M.-E., & Maleshkova, M. (2020). A knowledge graph for industry 4.0. In *The Semantic Web: 17th International Conference, ESWC 2020, Heraklion, Crete, Greece, May 31-June 4, 2020, Proceedings 17* (pp. 465-480). Springer. [https://doi.org/10.1007/978-3-030-49461-2_27](https://doi.org/10.1007/978-3-030-49461-2_27)
 
-- Yan, H., Yang, J., & Wan, J. (2020). KnowIME: a system to construct a knowledge graph for intelligent manufacturing equipment. *IEEE Access, 8*, 41805-41813. IEEE.
+- Yan, H., Yang, J., & Wan, J. (2020). KnowIME: a system to construct a knowledge graph for intelligent manufacturing equipment. *IEEE Access, 8*, 41805-41813. IEEE. [https://doi.org/10.1109/ACCESS.2020.2977136](https://doi.org/10.1109/ACCESS.2020.2977136)
 
-- Li, X., Chen, C.-H., Zheng, P., Wang, Z., Jiang, Z., & Jiang, Z. (2020). A knowledge graph-aided concept--knowledge approach for evolutionary smart product--service system development. *Journal of Mechanical Design*, 142(10), 101403. American Society of Mechanical Engineers.
+- Li, X., Chen, C.-H., Zheng, P., Wang, Z., Jiang, Z., & Jiang, Z. (2020). A knowledge graph-aided concept--knowledge approach for evolutionary smart product--service system development. *Journal of Mechanical Design*, 142(10), 101403. American Society of Mechanical Engineers. [https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/142/10/101403/1082189](https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/142/10/101403/1082189)
 
-- Rožanec, J. M., Zajec, P., Kenda, K., Novalija, I., Fortuna, B., & Mladenić, D. (2021). XAI-KG: Knowledge graph to support XAI and decision-making in manufacturing. In *Advanced Information Systems Engineering Workshops: CAiSE 2021 International Workshops* (pp. 167-172). Springer.
+- Rožanec, J. M., Zajec, P., Kenda, K., Novalija, I., Fortuna, B., & Mladenić, D. (2021). XAI-KG: Knowledge graph to support XAI and decision-making in manufacturing. In *Advanced Information Systems Engineering Workshops: CAiSE 2021 International Workshops* (pp. 167-172). Springer. [https://doi.org/10.1007/978-3-030-79022-6_14](https://doi.org/10.1007/978-3-030-79022-6_14)
 
-- Meckler, S., Steinmüller, H., & Harth, A. (2021). Building a Knowledge Graph with Inference for a Production Machine Using the Web of Things Standard. In *Advances and Trends in Artificial Intelligence. From Theory to Practice: 34th International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2021* (pp. 240-251). Springer.
+- Meckler, S., Steinmüller, H., & Harth, A. (2021). Building a Knowledge Graph with Inference for a Production Machine Using the Web of Things Standard. In *Advances and Trends in Artificial Intelligence. From Theory to Practice: 34th International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems, IEA/AIE 2021* (pp. 240-251). Springer. [https://doi.org/10.1007/978-3-030-79463-7_20](https://doi.org/10.1007/978-3-030-79463-7_20)
 
-- Ko, H., Witherell, P., Lu, Y., Kim, S., & Rosen, D. W. (2021). Machine learning and knowledge graph based design rule construction for additive manufacturing. *Additive Manufacturing*, 37, 101620. Elsevier.
+- Ko, H., Witherell, P., Lu, Y., Kim, S., & Rosen, D. W. (2021). Machine learning and knowledge graph based design rule construction for additive manufacturing. *Additive Manufacturing*, 37, 101620. Elsevier. [https://doi.org/10.1016/j.addma.2020.101620](https://doi.org/10.1016/j.addma.2020.101620)
 
-- Zhou, B., Bao, J., Li, J., Lu, Y., Liu, T., & Zhang, Q. (2021). A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops. *Robotics and Computer-Integrated Manufacturing*, 71, 102160. Elsevier.
+- Zhou, B., Bao, J., Li, J., Lu, Y., Liu, T., & Zhang, Q. (2021). A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops. *Robotics and Computer-Integrated Manufacturing*, 71, 102160. Elsevier. [https://doi.org/10.1016/j.rcim.2021.102160](https://doi.org/10.1016/j.rcim.2021.102160)
 
 - Bachhofner, S., Kiesling, E., Kurniawan, K., Sallinger, E., & Waibel, P. (2021). Knowledge Graph Modularization for Cyber-Physical Production Systems. In *Proceedings of the ISWC 2021 Posters, Demos and Industry Tracks* [CEUR Workshop Proceedings, Vol. 2980]. CEUR-WS.org. [Online](https://ceur-ws.org/Vol-2980/paper333.pdf)
 
-- Liu, M., Li, X., Li, J., Liu, Y., Zhou, B., & Bao, J. (2022). A knowledge graph-based data representation approach for IIoT-enabled cognitive manufacturing. *Advanced Engineering Informatics*, 51, 101515. Elsevier.
+- Liu, M., Li, X., Li, J., Liu, Y., Zhou, B., & Bao, J. (2022). A knowledge graph-based data representation approach for IIoT-enabled cognitive manufacturing. *Advanced Engineering Informatics*, 51, 101515. Elsevier. [https://doi.org/10.1016/j.aei.2021.101515](https://doi.org/10.1016/j.aei.2021.101515)
 
-- Kumar, A., Bharadwaj, A. G., Starly, B., & Lynch, C. (2022). FabKG: A Knowledge graph of Manufacturing Science domain utilizing structured and unconventional unstructured knowledge source. *arXiv preprint arXiv:2206.10318*.
+- Kumar, A., Bharadwaj, A. G., Starly, B., & Lynch, C. (2022). FabKG: A Knowledge graph of Manufacturing Science domain utilizing structured and unconventional unstructured knowledge source. *arXiv preprint arXiv:2206.10318*. [https://doi.org/10.48550/arXiv.2206.10318](https://doi.org/10.48550/arXiv.2206.10318)
 
-- Wang, Z., Zhang, B., & Gao, D. (2022). A novel knowledge graph development for industry design: A case study on indirect coal liquefaction process. *Computers in Industry*, 139, 103647. Elsevier.
+- Wang, Z., Zhang, B., & Gao, D. (2022). A novel knowledge graph development for industry design: A case study on indirect coal liquefaction process. *Computers in Industry*, 139, 103647. Elsevier. [https://doi.org/10.1016/j.compind.2022.103647](https://doi.org/10.1016/j.compind.2022.103647)
 
-- Bachhofner, S., Kiesling, E., Revoredo, K., Waibel, P., & Polleres, A. (2022). Automated Process Knowledge Graph Construction from BPMN Models. In *Database and Expert Systems Applications - 33rd International Conference, DEXA 2022* [Lecture Notes in Computer Science, Vol. 13426] (pp. 32-47). Springer. [DOI](https://doi.org/10.1007/978-3-031-12423-5_3)
+- Bachhofner, S., Kiesling, E., Revoredo, K., Waibel, P., & Polleres, A. (2022). Automated Process Knowledge Graph Construction from BPMN Models. In *Database and Expert Systems Applications - 33rd International Conference, DEXA 2022* [Lecture Notes in Computer Science, Vol. 13426] (pp. 32-47). Springer. [https://doi.org/10.1007/978-3-031-12423-5_3](https://doi.org/10.1007/978-3-031-12423-5_3)
 
-- Bachhofner, S., Kurniawan, K., Kiesling, E., Revoredo, K., & Bayomie, D. (2022). Knowledge Graph Supported Machine Parameterization for the Injection Moulding Industry. In *Knowledge Graphs and Semantic Web - 4th Iberoamerican Conference and third Indo-American Conference, KGSWC 2022* [Communications in Computer and Information Science, Vol. 1686] (pp. 106-120). Springer. [DOI](https://doi.org/10.1007/978-3-031-21422-6_8)
+- Bachhofner, S., Kurniawan, K., Kiesling, E., Revoredo, K., & Bayomie, D. (2022). Knowledge Graph Supported Machine Parameterization for the Injection Moulding Industry. In *Knowledge Graphs and Semantic Web - 4th Iberoamerican Conference and third Indo-American Conference, KGSWC 2022* [Communications in Computer and Information Science, Vol. 1686] (pp. 106-120). Springer. [https://doi.org/10.1007/978-3-031-21422-6_8](https://doi.org/10.1007/978-3-031-21422-6_8)
 
-- Martinez-Gil, J., Buchgeher, G., Gabauer, D., Freudenthaler, B., Filipiak, D., & Fensel, A. (2021). Root Cause Analysis in the Industrial Domain using Knowledge Graphs: A Case Study on Power Transformers. In *Proceedings of the 3rd International Conference on Industry 4.0 and Smart Manufacturing (ISM 2022)* [Procedia Computer Science, Vol. 200] (pp. 944-953). Elsevier. [DOI](https://doi.org/10.1016/j.procs.2022.01.292)
+- Martinez-Gil, J., Buchgeher, G., Gabauer, D., Freudenthaler, B., Filipiak, D., & Fensel, A. (2021). Root Cause Analysis in the Industrial Domain using Knowledge Graphs: A Case Study on Power Transformers. In *Proceedings of the 3rd International Conference on Industry 4.0 and Smart Manufacturing (ISM 2022)* [Procedia Computer Science, Vol. 200] (pp. 944-953). Elsevier. [https://doi.org/10.1016/j.procs.2022.01.292](https://doi.org/10.1016/j.procs.2022.01.292)
 
-- Chhetri, T. R., Aghaei, S., Fensel, A., Göhner, U., Gül-Ficici, S., & Martinez-Gil, J. (2022). Optimising Manufacturing Process with Bayesian Structure Learning and Knowledge Graphs. In *Computer Aided Systems Theory - EUROCAST 2022* [Lecture Notes in Computer Science, Vol. 13789] (pp. 594-602). Springer. [DOI](https://doi.org/10.1007/978-3-031-25312-6_70)
+- Chhetri, T. R., Aghaei, S., Fensel, A., Göhner, U., Gül-Ficici, S., & Martinez-Gil, J. (2022). Optimising Manufacturing Process with Bayesian Structure Learning and Knowledge Graphs. In *Computer Aided Systems Theory - EUROCAST 2022* [Lecture Notes in Computer Science, Vol. 13789] (pp. 594-602). Springer. [https://doi.org/10.1007/978-3-031-25312-6_70](https://doi.org/10.1007/978-3-031-25312-6_70)
 
