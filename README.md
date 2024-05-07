@@ -69,3 +69,30 @@ Knowledge Graphs (KGs) hold the potential to revolutionize the manufacturing ind
 - Hermann, M., Pentek, T., & Otto, B. Design principles for industrie 4.0 scenarios. [Link](https://doi.org/10.1109/HICSS.2016.488)
 - Duan, W., & Chiang, Y.-Y. Building knowledge graph from public data for predictive analysis. [Link](https://doi.org/10.1145/3006386.3006388)
 
+## 📚 Reference
+
+If you use this work, please cite:
+
+```
+@Inbook{Martinez-Gil2024,
+  author="Martinez-Gil, Jorge
+  and Hoch, Thomas
+  and Pichler, Mario
+  and Heinzl, Bernhard
+  and Moser, Bernhard
+  and Kurniawan, Kabul
+  and Kiesling, Elmar
+  and Krause, Franz",
+  editor="Soldatos, John",
+  title="Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A Comprehensive Review",
+  bookTitle="Artificial Intelligence in Manufacturing: Enabling Intelligent, Flexible and Cost-Effective Production Through AI",
+  year="2024",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="55--70",
+  isbn="978-3-031-46452-2",
+  doi="10.1007/978-3-031-46452-2_4",
+  url="https://doi.org/10.1007/978-3-031-46452-2_4"
+}
+```
+
