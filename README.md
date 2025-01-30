@@ -2,7 +2,7 @@
 
 Knowledge Graphs (KGs) hold the potential to revolutionize the manufacturing industry by streamlining processes, improving product quality, and providing insights into the manufacturing landscape. This research explores the current state of KG use in manufacturing, outlining both the opportunities and challenges for successful implementation. The goal is to promote the advancement of KG technology and its broader application within the manufacturing sector.
 
-[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--031--46452--2_4-blue.svg)](https://doi.org/10.1007/978-3-031-46452-2_4)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--031--46452--2_4-blue.svg)](https://doi.org/10.1007/978-3-031-46452-2_4) [![Citations](https://img.shields.io/badge/citations-4-blue)](https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=X1pRUYcAAAAJ:Amrzk_ktLr0C)
 
 ![Knowledge Graphs in Manufacturing](image.png)
 
