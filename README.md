@@ -96,3 +96,25 @@ If you use this work, please cite:
 }
 ```
 
+## 📚 Research that has cited this work
+
+1. **[Knowledge Graph Representation Learning: A Comprehensive and Experimental Overview](https://www.sciencedirect.com/science/article/pii/S1574013724000996)**
+   - **Authors:** D. Sellami, W. Inoubli, I.R. Farah, S. Aridhi
+   - **Journal:** *Computer Science Review*, 2025 (Elsevier)
+   - **Abstract:** Knowledge graph embedding (KGE) is a key topic in knowledge graph research. This paper provides an extensive review of KGE methods, evaluating their effectiveness.
+
+2. **[Procedural Knowledge Management in Industry 5.0: Challenges and Opportunities for Knowledge Graphs](https://www.sciencedirect.com/science/article/pii/S1570826824000362)**
+   - **Authors:** I. Celino, V.A. Carriero, A. Azzini, I. Baroni
+   - **Journal:** *Journal of Web*, 2024 (Elsevier)
+   - **Abstract:** With the rise of Industry 5.0, companies are leveraging knowledge graphs for digital transformation. This paper explores the challenges and opportunities in procedural knowledge management.
+
+3. **[Evolvable Knowledge Graphs in Manufacturing: Learning Approaches](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172054425.55676002)**
+   - **Authors:** A. Teern, N. Elgendy, M. Kelanti, H. Tammia, T. Päivärinta
+   - **Journal:** *Authorea Preprints*, TechRxiv
+   - **Abstract:** This systematic literature review examines the role of evolvable knowledge graphs in manufacturing, highlighting their impact in Industry 4.0.
+
+4. **[From Dynamic to Evolvable Knowledge Graphs in Manufacturing: Systematic Literature Review on Learning Approaches](https://www.semantic-web-journal.net/system/files/swj3745.pdf)**
+   - **Authors:** A. Teern, N. Elgendy, M. Kelanti, H. Tammia, T. Päivärinta
+   - **Journal:** *Semantic Web Journal*
+   - **Abstract:** Investigates how evolvable knowledge graphs adapt to Industry 4.0 and 5.0, identifying key technologies and research gaps.
+
