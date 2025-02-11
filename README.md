@@ -96,7 +96,7 @@ If you use this work, please cite:
 }
 ```
 
-## 📚 Research that has cited this work
+### Research that has cited this work
 
 1. **[Knowledge Graph Representation Learning: A Comprehensive and Experimental Overview](https://www.sciencedirect.com/science/article/pii/S1574013724000996)**
    - **Authors:** D. Sellami, W. Inoubli, I.R. Farah, S. Aridhi
