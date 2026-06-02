@@ -197,9 +197,9 @@ If this survey is useful in your research, please consider citing it. Citing a r
 | Mario Pichler | Software Competence Center Hagenberg (SCCH), Austria |
 | Bernhard Heinzl | Software Competence Center Hagenberg (SCCH), Austria |
 | Bernhard Moser | Software Competence Center Hagenberg (SCCH), Austria |
-| Kabul Kurniawan | TU Wien, Austria |
-| Elmar Kiesling | TU Wien, Austria |
-| Franz Krause | Software Competence Center Hagenberg (SCCH), Austria |
+| Kabul Kurniawan | WU Wien, Austria |
+| Elmar Kiesling | WU Wien, Austria |
+| Franz Krause | Univ. Mannheim, Germany |
 
 ---
 
