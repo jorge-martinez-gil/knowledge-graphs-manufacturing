@@ -1,0 +1,45 @@
+# Runnable SPARQL queries over example-manufacturing-kg.ttl
+# Run all of them with:  python3 tutorials/run_example.py
+# Each query is delimited by a line starting with "### " (used by the runner).
+
+### Q1 - Machines and their failure modes
+PREFIX ex: <https://example.org/mfg#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?machine ?failure WHERE {
+  ?m a ex:Machine ; rdfs:label ?machine .
+  OPTIONAL { ?m ex:hasFailureMode ?f . ?f rdfs:label ?failure . }
+}
+ORDER BY ?machine
+
+### Q2 - What each process produces, on which machine, from which material
+PREFIX ex: <https://example.org/mfg#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?process ?product ?machine ?material WHERE {
+  ?p a ex:Process ; rdfs:label ?process ;
+     ex:produces/rdfs:label ?product ;
+     ex:performedOn/rdfs:label ?machine ;
+     ex:usesMaterial/rdfs:label ?material .
+}
+
+### Q3 - Predictive maintenance: failure modes whose sensor reported a high reading (> 4.0)
+PREFIX ex: <https://example.org/mfg#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+SELECT ?failure ?machine (MAX(?v) AS ?maxReading) WHERE {
+  ?f a ex:FailureMode ; rdfs:label ?failure ; ex:indicatedBy ?sensor .
+  ?sensor sosa:observes/rdfs:label ?machine .
+  ?obs sosa:madeBySensor ?sensor ; sosa:hasSimpleResult ?v .
+  FILTER (?v > 4.0)
+}
+GROUP BY ?failure ?machine
+
+### Q4 - Count instances by type
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?type (COUNT(?s) AS ?n) WHERE {
+  ?s a ?type .
+  FILTER (?type != owl:Class && ?type != owl:ObjectProperty)
+}
+GROUP BY ?type
+ORDER BY DESC(?n)

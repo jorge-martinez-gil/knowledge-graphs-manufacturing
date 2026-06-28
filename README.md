@@ -22,6 +22,7 @@
   <a href="catalog/tools.md">Tools</a> ·
   <a href="catalog/standards.md">Standards</a> ·
   <a href="taxonomy.md">Taxonomy</a> ·
+  <a href="tutorials/">Tutorials</a> ·
   <a href="#-cite-this-work">Cite</a>
 </p>
 
@@ -118,6 +119,9 @@ publish *criteria* — findability, accessibility, interoperability, reusability
 reasoning support, and maintenance — rather than invented rankings, so you can assess any
 resource consistently and reproducibly.
 
+### …learn the concepts or teach a class
+Start with the [tutorials](tutorials/): a [concepts primer](tutorials/01-concepts.md) (KGs, RDF, OWL, SHACL, SPARQL, digital twins, Industry 4.0/5.0) and a hands-on [build-your-first-manufacturing-KG](tutorials/02-build-your-first-manufacturing-kg.md) walkthrough with a runnable example graph and SPARQL queries.
+
 ### …reproduce or extend the data
 ```bash
 git clone https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing
@@ -143,6 +147,7 @@ catalog/     Human-readable catalogs (ontologies, tools, standards, datasets)
 docs/        Interactive website (GitHub Pages) — searchable literature explorer
 figures/     Publication-quality SVG figures, regenerated from data
 scripts/     build.py (regenerate everything) and validate.py (integrity checks)
+tutorials/   Hands-on tutorials + a runnable example KG (Turtle) and SPARQL
 taxonomy.md  A taxonomy of manufacturing knowledge graphs
 BIBLIOGRAPHY.md  Full reading list grouped by year (generated)
 ```

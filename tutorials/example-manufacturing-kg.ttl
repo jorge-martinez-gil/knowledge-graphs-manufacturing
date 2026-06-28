@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------------------
+# A small EXAMPLE manufacturing knowledge graph for teaching purposes.
+# Domain: a CNC machining cell that mills aluminium brackets.
+# It reuses the W3C SOSA/SSN vocabulary for sensing and defines a tiny
+# manufacturing ontology in the `ex:` namespace. This is illustrative data,
+# not a real factory. Parse + query it with tutorials/run_example.py.
+# ---------------------------------------------------------------------------
+@prefix ex:   <https://example.org/mfg#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+# ---- tiny ontology (schema) ----
+ex:Machine        a owl:Class ; rdfs:label "Machine" .
+ex:Product        a owl:Class ; rdfs:label "Product" .
+ex:Material       a owl:Class ; rdfs:label "Material" .
+ex:Process        a owl:Class ; rdfs:label "Manufacturing process" .
+ex:FailureMode    a owl:Class ; rdfs:label "Failure mode" .
+ex:Operator       a owl:Class ; rdfs:label "Operator" .
+
+ex:performedOn  a owl:ObjectProperty ; rdfs:label "performed on" ;
+    rdfs:domain ex:Process ; rdfs:range ex:Machine .
+ex:produces     a owl:ObjectProperty ; rdfs:label "produces" ;
+    rdfs:domain ex:Process ; rdfs:range ex:Product .
+ex:usesMaterial a owl:ObjectProperty ; rdfs:label "uses material" ;
+    rdfs:domain ex:Process ; rdfs:range ex:Material .
+ex:hasFailureMode a owl:ObjectProperty ; rdfs:label "has failure mode" ;
+    rdfs:domain ex:Machine ; rdfs:range ex:FailureMode .
+ex:indicatedBy  a owl:ObjectProperty ; rdfs:label "indicated by" ;
+    rdfs:domain ex:FailureMode ; rdfs:range sosa:Sensor .
+ex:operates     a owl:ObjectProperty ; rdfs:label "operates" ;
+    rdfs:domain ex:Operator ; rdfs:range ex:Machine .
+
+# ---- instances (data) ----
+ex:CNCMill1 a ex:Machine ; rdfs:label "CNC milling machine #1" ;
+    ex:hasFailureMode ex:SpindleWear ;
+    ex:criticality "high" .
+ex:Lathe1 a ex:Machine ; rdfs:label "CNC lathe #1" ;
+    ex:criticality "medium" .
+
+ex:Aluminium6061 a ex:Material ; rdfs:label "Aluminium 6061-T6" .
+ex:BracketA      a ex:Product  ; rdfs:label "Mounting bracket A" .
+
+ex:MillingOp1 a ex:Process ; rdfs:label "Milling operation for bracket A" ;
+    ex:performedOn ex:CNCMill1 ;
+    ex:produces    ex:BracketA ;
+    ex:usesMaterial ex:Aluminium6061 .
+
+ex:SpindleWear a ex:FailureMode ; rdfs:label "Spindle bearing wear" ;
+    ex:indicatedBy ex:VibrationSensor1 .
+
+ex:Operator1 a ex:Operator ; rdfs:label "Operator J. Doe" ;
+    ex:operates ex:CNCMill1 .
+
+# ---- sensing (SOSA) ----
+ex:VibrationSensor1 a sosa:Sensor ; rdfs:label "Spindle vibration sensor" ;
+    sosa:observes ex:CNCMill1 .
+
+ex:Obs1 a sosa:Observation ;
+    sosa:madeBySensor ex:VibrationSensor1 ;
+    sosa:hasFeatureOfInterest ex:CNCMill1 ;
+    sosa:hasSimpleResult "2.1"^^xsd:double ;
+    sosa:resultTime "2026-06-20T08:00:00Z"^^xsd:dateTime .
+
+ex:Obs2 a sosa:Observation ;
+    sosa:madeBySensor ex:VibrationSensor1 ;
+    sosa:hasFeatureOfInterest ex:CNCMill1 ;
+    sosa:hasSimpleResult "4.8"^^xsd:double ;
+    sosa:resultTime "2026-06-25T08:00:00Z"^^xsd:dateTime .
