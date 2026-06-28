@@ -1,144 +1,187 @@
-# Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A Comprehensive Review
+# Knowledge Graphs in Manufacturing — Literature Database, Catalogs & Benchmark
+
+> The open, living reference for **knowledge graphs in manufacturing**: a searchable
+> literature database, curated ontology/tool/standard catalogs, a taxonomy, publication-quality
+> figures, and an interactive explorer — companion to (and continuously extending) our
+> peer-reviewed Springer survey.
 
 <p align="center">
   <a href="https://doi.org/10.1007/978-3-031-46452-2_4"><img src="https://img.shields.io/badge/DOI-10.1007%2F978--3--031--46452--2__4-blue.svg" alt="DOI"></a>
-  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=X1pRUYcAAAAJ:x8G803Bi31IC"><img src="https://img.shields.io/badge/citations-6-brightgreen" alt="Citations"></a>
-  <img src="https://img.shields.io/badge/papers_reviewed-50%2B-orange" alt="Papers Reviewed">
-  <img src="https://img.shields.io/badge/years_covered-2016--2022-lightgrey" alt="Years Covered">
-  <img src="https://img.shields.io/badge/publisher-Springer_Nature-red" alt="Publisher">
+  <a href="https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/"><img src="https://img.shields.io/badge/explore-interactive%20literature%20database-1f6feb" alt="Interactive site"></a>
+  <img src="https://img.shields.io/badge/papers-64%20(2016--2026)-orange" alt="Papers">
+  <img src="https://img.shields.io/badge/ontologies-24-0a9396" alt="Ontologies">
+  <img src="https://img.shields.io/badge/tools-33-5e548e" alt="Tools">
+  <img src="https://img.shields.io/badge/standards-18-9b2226" alt="Standards">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
 </p>
 
 <p align="center">
-  <b>Published in:</b> <i>Artificial Intelligence in Manufacturing</i>, Springer Nature Switzerland, 2024, pp. 55–70<br>
-  <b>Editors:</b> John Soldatos
+  <b>📚 <a href="https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/">Search the literature database</a></b> ·
+  <a href="BIBLIOGRAPHY.md">Full bibliography</a> ·
+  <a href="catalog/ontologies.md">Ontologies</a> ·
+  <a href="catalog/tools.md">Tools</a> ·
+  <a href="catalog/standards.md">Standards</a> ·
+  <a href="taxonomy.md">Taxonomy</a> ·
+  <a href="#-cite-this-work">Cite</a>
 </p>
 
 ---
 
-## Abstract
+This repository is research infrastructure for anyone working on **manufacturing knowledge
+graphs**, **industrial knowledge graphs**, and **semantic manufacturing** — researchers,
+educators, and industrial practitioners. It began as the companion to a comprehensive review
+and is now a continuously updated, machine-readable knowledge base.
 
-Knowledge Graphs (KGs) hold the potential to revolutionize the manufacturing industry by streamlining processes, improving product quality, and providing insights into the manufacturing landscape. This comprehensive review explores the current state of KG adoption in manufacturing—covering Industry 4.0 applications, cyber-physical systems, digital twins, process optimization, and more—while outlining both the opportunities and challenges for successful implementation.
+**What you get:**
 
-> **TL;DR:** We systematically survey 50+ papers (2016–2022) on Knowledge Graphs in manufacturing, map the research landscape, and identify open challenges and future directions.
-
----
-
-## ✨ Key Contributions
-
-- **Systematic literature survey** of Knowledge Graph applications in manufacturing (2016–2022)
-- **Taxonomy of KG use cases**: process knowledge, digital twins, IIoT integration, quality control, root cause analysis, and resource allocation
-- **Critical analysis** of construction methods, representation approaches, and integration patterns
-- **Identification of open challenges**: scalability, real-time updates, cross-domain interoperability, and knowledge evolution
-- **Research roadmap** for KG adoption in smart and sustainable manufacturing (Industry 4.0 / 5.0)
-
----
-
-## 🗝️ Keywords
-
-`Knowledge Graphs` · `Manufacturing` · `Industry 4.0` · `Industry 5.0` · `Semantic Web` · `Ontologies` · `Digital Twins` · `IIoT` · `Cyber-Physical Systems` · `Smart Manufacturing` · `Knowledge Representation` · `Systematic Review`
+- 🔎 **A searchable literature database** — 64 curated papers (2016–2026) as
+  [JSON](data/papers.json), [CSV](data/papers.csv) and [BibTeX](data/papers.bib), explorable
+  through an [interactive website](https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/).
+- 🧩 **Curated catalogs** of [manufacturing ontologies](catalog/ontologies.md) (24),
+  [KG software & tools](catalog/tools.md) (33), [industrial standards](catalog/standards.md) (18),
+  and [datasets](catalog/datasets.md).
+- 🗺️ **A taxonomy** of the field and **publication-quality figures** you can reuse.
+- 🔁 **Full reproducibility** — every derived file is regenerated from the data by a single,
+  dependency-free [build script](scripts/build.py) and checked by a [validator](scripts/validate.py).
 
 ---
 
-![Knowledge Graphs in Manufacturing](image.png)
+## Why knowledge graphs in manufacturing?
+
+Modern factories generate vast, heterogeneous data — from sensors and IIoT devices, MES/ERP
+systems, OPC UA servers, CAD/PLM tools, and unstructured documents. This data is siloed and
+hard to connect. **Knowledge graphs (KGs)** represent entities (machines, products, processes,
+defects, operators) and their relationships in a single, queryable, semantically-rich graph,
+making manufacturing knowledge **interoperable, explainable, and machine-actionable**. In the
+context of **Industry 4.0** and **Industry 5.0**, KGs underpin **digital twins**,
+**cyber-physical systems**, and trustworthy industrial AI.
+
+### What problems do they solve?
+
+| Problem | How a manufacturing knowledge graph helps | Theme |
+|---|---|---|
+| Data silos across IT/OT | Integrate heterogeneous sources under a shared semantic schema | Interoperability |
+| Opaque AI decisions | Provide relational context for explainable, auditable reasoning | Explainability |
+| Unplanned downtime | Link assets, failure modes and history for predictive maintenance | Predictive maintenance |
+| Recurring defects | Connect symptoms, causes and process steps for root-cause analysis | Quality & root-cause |
+| Slow process planning | Reuse formalized process knowledge and constraints | Process planning |
+| Static digital twins | Give the twin a semantic, evolvable knowledge layer | Digital twins |
+| Supply disruptions | Make suppliers, parts and events traceable end-to-end | Supply chain |
+
+See the full [taxonomy](taxonomy.md) for how these fit together.
+
+![Manufacturing knowledge-graph technology stack](figures/technology_landscape.svg)
 
 ---
 
-## 📊 Survey Scope
+## The research landscape at a glance
 
-| Dimension | Coverage |
-|-----------|----------|
-| Years | 2016 – 2022 |
-| Papers reviewed | 50+ |
-| Publisher | Springer Nature Switzerland |
-| Book | *AI in Manufacturing* (ed. Soldatos) |
-| Pages | 55–70 |
+Publications per year across the curated corpus (2016–2026), and the dominant research themes:
 
----
+![Manufacturing knowledge-graph publications per year](figures/papers_per_year.svg)
 
-## 📋 Reviewed Papers by Year
+![Research themes across the corpus](figures/category_distribution.svg)
 
-## 2022 (10 papers)
-- Hoch, T., Heinzl, B., Czech, G., et al. Teaming.AI: Enabling Human-AI Teaming Intelligence in Manufacturing. [Link](https://ceur-ws.org/Vol-3214/WS5Paper6.pdf)
-- Alam, M., Fensel, A., Martinez-Gil, J., et al. Special Issue on Machine Learning and Knowledge Graphs. [Link](https://doi.org/10.1016/j.future.2021.11.022)
-- Freudenthaler, B., Martinez-Gil, J., Fensel, A., et al. KI-Net: AI-Based Optimization in Industrial Manufacturing - A Project Overview. [Link](https://doi.org/10.1007/978-3-031-25312-6_65)
-- Liu, M., Li, X., Li, J., et al. A knowledge graph-based data representation approach for IIoT-enabled cognitive manufacturing. [Link](https://doi.org/10.1016/j.aei.2021.101515)
-- Kumar, A., Bharadwaj, A. G., Starly, B., et al. FabKG: A Knowledge graph of Manufacturing Science domain. [Link](https://doi.org/10.48550/arXiv.2206.10318)
-- Wang, Z., Zhang, B., Gao, D. A novel knowledge graph development for industry design. [Link](https://doi.org/10.1016/j.compind.2022.103647)
-- Bachhofner, S., Kiesling, E., Revoredo, K., et al. Automated Process Knowledge Graph Construction from BPMN Models. [Link](https://doi.org/10.1007/978-3-031-12423-5_3)
-- Bachhofner, S., Kurniawan, K., Kiesling, E., et al. Knowledge Graph Supported Machine Parameterization. [Link](https://doi.org/10.1007/978-3-031-21422-6_8)
-- Martinez-Gil, J., Buchgeher, G., Gabauer, D., et al. Root Cause Analysis in the Industrial Domain using Knowledge Graphs. [Link](https://doi.org/10.1016/j.procs.2022.01.292)
-- Chhetri, T. R., Aghaei, S., Fensel, A., et al. Optimising Manufacturing Process with Bayesian Structure Learning and Knowledge Graphs. [Link](https://doi.org/10.1007/978-3-031-25312-6_70)
-
-## 2021 (6 papers)
-- Buchgeher, G., Gabauer, D., Martinez-Gil, J., & Ehrlinger, L. Knowledge Graphs in Manufacturing and Production: A Systematic Literature Review. [Link](https://doi.org/10.1109/ACCESS.2021.3070395)
-- Rožanec, J. M., Zajec, P., Kenda, K., et al. XAI-KG: Knowledge graph to support XAI and decision-making in manufacturing. [Link](https://doi.org/10.1007/978-3-030-79022-6_14)
-- Meckler, S., Steinmüller, H., Harth, A. Building a Knowledge Graph with Inference for a Production Machine. [Link](https://doi.org/10.1007/978-3-030-79463-7_20)
-- Ko, H., Witherell, P., Lu, Y., et al. Machine learning and knowledge graph based design rule construction. [Link](https://doi.org/10.1016/j.addma.2020.101620)
-- Zhou, B., Bao, J., Li, J., et al. A novel knowledge graph-based optimization approach for resource allocation. [Link](https://doi.org/10.1016/j.rcim.2021.102160)
-- Bachhofner, S., Kiesling, E., Kurniawan, K., et al. Knowledge Graph Modularization for Cyber-Physical Production Systems. [Online](https://ceur-ws.org/Vol-2980/paper333.pdf)
-
-## 2020 (6 papers)
-- Zhou, X., Lim, M. Q., & Kraft, M. A Smart Contract-based agent marketplace for the J-Park Simulator. [Link](https://doi.org/10.1016/j.compchemeng.2020.106896)
-- Nayak, A., Kesri, V., & Dubey, R. K. Knowledge Graph based Automated Generation of Test Cases in Software Engineering. [Link](https://doi.org/10.1145/3371158.3371202)
-- Kalaycı, E. G., Grangel González, I., Lösch, F., et al. Semantic integration of Bosch manufacturing data. [Link](https://doi.org/10.1007/978-3-030-62466-8_29)
-- Bader, S. R., Grangel-González, I., Nanjappa, P., et al. A knowledge graph for industry 4.0. [Link](https://doi.org/10.1007/978-3-030-49461-2_27)
-- Yan, H., Yang, J., & Wan, J. KnowIME: a system to construct a knowledge graph for intelligent manufacturing equipment. [Link](https://doi.org/10.1109/ACCESS.2020.2977136)
-- Li, X., Chen, C.-H., Zheng, P., et al. A knowledge graph-aided concept--knowledge approach for evolutionary smart product--service system development. [Link](https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/142/10/101403/1082189)
-
-## 2019 (11 papers)
-- Noy, N. F., Gao, Y., Jain, A., et al. Industry-scale knowledge graphs: lessons and challenges. [Link](https://doi.org/10.1145/3331166)
-- Haase, P., Herzig, D. M., Kozlov, A., et al. metaphactory: A platform for knowledge graph management. [Link](https://doi.org/10.3233/SW-190360)
-- Zhao, M., Wang, H., Guo, J., et al. Construction of an industrial knowledge graph for unstructured Chinese text learning. [Link](https://www.mdpi.com/2076-3417/9/13/2720)
-- He, L., & Jiang, P. Manufacturing Knowledge Graph: A Connectivism to Answer Production Problems Query. [Link](https://doi.org/10.1109/ACCESS.2019.2931361)
-- Tushkanova, O., & Samoylov, V. Knowledge Net: Model and System for Accumulation, Representation, and Use of Knowledge. [Link](https://www.sciencedirect.com/science/article/pii/S2405896319313291)
-- Eibeck, A., Lim, M. Q., & Kraft, M. J-Park Simulator: An ontology-based platform for cross-domain scenarios. [Link](https://doi.org/10.1016/j.compchemeng.2019.106586)
-- Liebig, T., Maisenbacher, A., Opitz, M., et al. Building a Knowledge Graph for Products and Solutions in the Automation Industry. [Online](https://ceur-ws.org/Vol-2489/paper2.pdf)
-- Kattepur, A. RoboPlanner: autonomous robotic action planning via knowledge graph queries. [Link](https://doi.org/10.1145/3297280.3297568)
-- Dombrowski, U., Reiswich, A., & Imdahl, C. Knowledge Graphs for an Automated Information Provision in the Factory Planning. [Link](https://doi.org/10.1109/IEEM44572.2019.8978887)
-- Aggour, K. S., Kumar, V. S., Cuddihy, P., et al. Federated Multimodal Big Data Storage & Analytics Platform for Additive Manufacturing. [Link](https://doi.org/10.1109/BigData47090.2019.9006495)
-- Li, R., Dai, W., He, S., et al. A Knowledge Graph Framework for Software-Defined Industrial Cyber-Physical Systems. [Link](https://doi.org/10.1109/IECON.2019.8927285)
-
-## 2018 (5 papers)
-- Garofalo, M., Pellegrino, M. A., Altabba, A., et al. Leveraging knowledge graph embedding techniques for industry 4.0 use cases. [Link](https://ebooks.iospress.nl/doi/10.3233/978-1-61499-888-4-10)
-- Li, X., Zhang, S., Huang, R., et al. Structured modeling of heterogeneous CAM model based on process knowledge graph. [Link](https://link.springer.com/article/10.1007/s00170-018-1862-8)
-- Fu, L., Bai, Y., & Zhong, Z. Constructing a vertical knowledge graph for non-traditional machining industry. [Link](https://doi.org/10.1109/ICNSC.2018.8361341)
-- Grangel-González, I., Halilaj, L., Vidal, M.-E., et al. Seamless integration of cyber-physical systems in knowledge graphs. [Link](https://doi.org/10.1145/3167132.3167435)
-- Grangel-González, I., Halilaj, L., Vidal, M.-E., et al. Knowledge Graphs for Semantically Integrating Cyber-Physical Systems. [Link](https://doi.org/10.1007/978-3-319-98809-2_12)
-
-## 2017 (6 papers)
-- Zhang, X., Liu, X., Li, X., & Pan, D. MMKG: an approach to generate metallic materials knowledge graph. [Link](https://doi.org/10.1016/j.cpc.2016.07.005)
-- Peroni, S., & Vitali, F. Interfacing fast-fashion design industries with Semantic Web technologies. [Link](https://doi.org/10.1016/j.websem.2017.06.001)
-- Banerjee, A., Dalal, R., Mittal, S., et al. Generating Digital Twin Models using Knowledge Graphs. [Link](https://ebiquity.umbc.edu/get/a/publication/850.pdf)
-- Zhao, Y., Liu, Q., & Xu, W. Open industrial knowledge graph development for intelligent manufacturing service matchmaking. [Link](https://ieeexplore.ieee.org/abstract/document/8328618/)
-- Ringsquandl, M., Lamparter, S., Lepratti, R., et al. Knowledge Fusion of Manufacturing Operations Data Using Representation Learning. [Link](https://doi.org/10.1007/978-3-319-66926-7_35)
-- Ringsquandl, M., Kharlamov, E., Stepanova, D., et al. On event-driven knowledge graph completion in digital factories. [Link](https://doi.org/10.1109/BigData.2017.8258105)
-
-## 2016 (2 papers)
-- Hermann, M., Pentek, T., & Otto, B. Design principles for industrie 4.0 scenarios. [Link](https://doi.org/10.1109/HICSS.2016.488)
-- Duan, W., & Chiang, Y.-Y. Building knowledge graph from public data for predictive analysis. [Link](https://doi.org/10.1145/3006386.3006388)
+A clear recent trend: the convergence of **Large Language Models with knowledge graphs**
+(GraphRAG, KG-grounded reasoning) and the maturing of **cognitive digital twins** for
+human-centric **Industry 5.0**. All figures are regenerated from the data by
+[`scripts/build.py`](scripts/build.py).
 
 ---
 
-## 📚 Cite This Work
+## How do I… ?
 
-If this survey is useful in your research, please consider citing it. Citing a review paper is appropriate when you:
-- Reference the landscape of KG adoption in manufacturing
-- Discuss open challenges or research gaps in the field
-- Survey related work in smart/intelligent manufacturing
-- Build on any of the research themes identified here
+### …find relevant literature
+Use the **[interactive explorer](https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/)**
+to full-text search and filter by year and theme, then copy BibTeX for any paper. Prefer files?
+Grab [`data/papers.bib`](data/papers.bib), [`data/papers.csv`](data/papers.csv), or read the
+grouped [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md).
+
+### …compare manufacturing ontologies
+Browse the [ontology catalog](catalog/ontologies.md): 24 ontologies (MASON, the Industrial
+Ontologies Foundry suite, P-PSO, MSDL, SAREF4INMA, BFO, and more) with scope, license and a
+verifiable source for each.
+
+### …choose tools / triplestores
+The [tools catalog](catalog/tools.md) covers 33 systems across triplestores, ontology editors,
+reasoners, SHACL validation, RML/OBDA mapping, KG embeddings, query and visualization — with
+licenses and links.
+
+### …align with industrial standards
+The [standards catalog](catalog/standards.md) maps RAMI 4.0, the Asset Administration Shell,
+OPC UA, ISA-95/ISA-88, AutomationML, MTConnect, QIF and the W3C stack (RDF, OWL, SHACL, SPARQL,
+PROV-O) to where they fit in a KG.
+
+### …evaluate a manufacturing knowledge graph
+Use the transparent **FAIR-based checklist** in [catalog/datasets.md](catalog/datasets.md). We
+publish *criteria* — findability, accessibility, interoperability, reusability, scale/quality,
+reasoning support, and maintenance — rather than invented rankings, so you can assess any
+resource consistently and reproducibly.
+
+### …reproduce or extend the data
+```bash
+git clone https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing
+cd knowledge-graphs-manufacturing
+python3 scripts/build.py      # regenerate CSV, BibTeX, catalogs, figures, website data
+python3 scripts/validate.py   # check links, fields, tags, uniqueness, sync
+```
+No third-party dependencies — Python 3.8+ standard library only.
+
+### …contribute a paper or resource
+Open an issue ([add a paper](../../issues/new?template=add_paper.yml) ·
+[add a resource](../../issues/new?template=add_resource.yml)) or send a pull request. See
+[CONTRIBUTING.md](CONTRIBUTING.md). **Golden rule:** every entry must be verifiable, with a
+resolvable link; unknown fields are left blank, never guessed.
+
+---
+
+## Repository structure
+
+```
+data/        Canonical datasets (papers, ontologies, tools, standards) + generated CSV/BibTeX
+catalog/     Human-readable catalogs (ontologies, tools, standards, datasets)
+docs/        Interactive website (GitHub Pages) — searchable literature explorer
+figures/     Publication-quality SVG figures, regenerated from data
+scripts/     build.py (regenerate everything) and validate.py (integrity checks)
+taxonomy.md  A taxonomy of manufacturing knowledge graphs
+BIBLIOGRAPHY.md  Full reading list grouped by year (generated)
+```
+
+Everything in `data/*.csv`, `data/*.bib`, `catalog/*.md`, `figures/*.svg`, `BIBLIOGRAPHY.md`
+and `docs/papers.json` is **generated** — edit the JSON in `data/` and re-run the build.
+
+---
+
+## About the survey
+
+This platform accompanies a peer-reviewed review of **knowledge graph adoption in
+manufacturing**, surveying the field across Industry 4.0 applications, cyber-physical systems,
+digital twins, process optimization, quality control, root-cause analysis and resource
+allocation, and outlining open challenges (scalability, real-time updates, cross-domain
+interoperability, knowledge evolution) and a research roadmap toward Industry 4.0/5.0.
+
+> **TL;DR:** We systematically review the literature on knowledge graphs in manufacturing, map
+> the research landscape, and identify open challenges — and this repository keeps that map
+> current and reusable.
+
+`Knowledge Graphs` · `Manufacturing` · `Industry 4.0` · `Industry 5.0` · `Semantic Web` ·
+`Ontologies` · `Digital Twins` · `IIoT` · `Cyber-Physical Systems` · `Smart Manufacturing` ·
+`Knowledge Representation` · `Industrial AI`
+
+---
+
+## 📚 Cite this work
+
+If this repository or its dataset is useful in your research, please cite the survey. A
+[`CITATION.cff`](CITATION.cff) is included so GitHub can generate citations automatically.
 
 **BibTeX:**
 
 ```bibtex
 @Inbook{Martinez-Gil2024,
-  author    = {Martinez-Gil, Jorge
-               and Hoch, Thomas
-               and Pichler, Mario
-               and Heinzl, Bernhard
-               and Moser, Bernhard
-               and Kurniawan, Kabul
-               and Kiesling, Elmar
-               and Krause, Franz},
+  author    = {Martinez-Gil, Jorge and Hoch, Thomas and Pichler, Mario
+               and Heinzl, Bernhard and Moser, Bernhard and Kurniawan, Kabul
+               and Kiesling, Elmar and Krause, Franz},
   editor    = {Soldatos, John},
   title     = {Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A Comprehensive Review},
   booktitle = {Artificial Intelligence in Manufacturing: Enabling Intelligent, Flexible and Cost-Effective Production Through AI},
@@ -153,38 +196,28 @@ If this survey is useful in your research, please consider citing it. Citing a r
 ```
 
 **APA:**
-> Martinez-Gil, J., Hoch, T., Pichler, M., Heinzl, B., Moser, B., Kurniawan, K., Kiesling, E., & Krause, F. (2024). Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A Comprehensive Review. In J. Soldatos (Ed.), *Artificial Intelligence in Manufacturing* (pp. 55–70). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-46452-2_4
+> Martinez-Gil, J., Hoch, T., Pichler, M., Heinzl, B., Moser, B., Kurniawan, K., Kiesling, E.,
+> & Krause, F. (2024). Examining the Adoption of Knowledge Graphs in the Manufacturing
+> Industry: A Comprehensive Review. In J. Soldatos (Ed.), *Artificial Intelligence in
+> Manufacturing* (pp. 55–70). Springer Nature Switzerland.
+> https://doi.org/10.1007/978-3-031-46452-2_4
+
+📖 [Springer](https://doi.org/10.1007/978-3-031-46452-2_4) ·
+🎓 [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=X1pRUYcAAAAJ:x8G803Bi31IC)
 
 ---
 
-## 🔗 Access the Paper
+## 📈 Selected research that cites this work
 
-- 📖 **Springer:** [https://doi.org/10.1007/978-3-031-46452-2_4](https://doi.org/10.1007/978-3-031-46452-2_4)
-- 🎓 **Google Scholar:** [View citation page](https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=X1pRUYcAAAAJ:x8G803Bi31IC)
-
----
-
-## 📈 Research that has cited this work
-
-1. **[Knowledge Graph Representation Learning: A Comprehensive and Experimental Overview](https://www.sciencedirect.com/science/article/pii/S1574013724000996)**
-   - **Authors:** D. Sellami, W. Inoubli, I.R. Farah, S. Aridhi
-   - **Journal:** *Computer Science Review*, 2025 (Elsevier)
-   - **Abstract:** Knowledge graph embedding (KGE) is a key topic in knowledge graph research. This paper provides an extensive review of KGE methods, evaluating their effectiveness.
-
-2. **[Procedural Knowledge Management in Industry 5.0: Challenges and Opportunities for Knowledge Graphs](https://www.sciencedirect.com/science/article/pii/S1570826824000362)**
-   - **Authors:** I. Celino, V.A. Carriero, A. Azzini, I. Baroni
-   - **Journal:** *Journal of Web*, 2024 (Elsevier)
-   - **Abstract:** With the rise of Industry 5.0, companies are leveraging knowledge graphs for digital transformation. This paper explores the challenges and opportunities in procedural knowledge management.
-
-3. **[Evolvable Knowledge Graphs in Manufacturing: Learning Approaches](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172054425.55676002)**
-   - **Authors:** A. Teern, N. Elgendy, M. Kelanti, H. Tammia, T. Päivärinta
-   - **Journal:** *Authorea Preprints*, TechRxiv
-   - **Abstract:** This systematic literature review examines the role of evolvable knowledge graphs in manufacturing, highlighting their impact in Industry 4.0.
-
-4. **[From Dynamic to Evolvable Knowledge Graphs in Manufacturing: Systematic Literature Review on Learning Approaches](https://www.semantic-web-journal.net/system/files/swj3745.pdf)**
-   - **Authors:** A. Teern, N. Elgendy, M. Kelanti, H. Tammia, T. Päivärinta
-   - **Journal:** *Semantic Web Journal*
-   - **Abstract:** Investigates how evolvable knowledge graphs adapt to Industry 4.0 and 5.0, identifying key technologies and research gaps.
+- **Knowledge Graph Representation Learning: A Comprehensive and Experimental Overview** —
+  Sellami, Inoubli, Farah & Aridhi. *Computer Science Review*, 2025 (Elsevier).
+  [link](https://www.sciencedirect.com/science/article/pii/S1574013724000996)
+- **Procedural Knowledge Management in Industry 5.0: Challenges and Opportunities for Knowledge Graphs** —
+  Celino, Carriero, Azzini & Baroni. *Journal of Web Semantics*, 2024 (Elsevier).
+  [link](https://www.sciencedirect.com/science/article/pii/S1570826824000362)
+- **From Dynamic to Evolvable Knowledge Graphs in Manufacturing: Systematic Literature Review on Learning Approaches** —
+  Teern, Elgendy, Kelanti, Tammia & Päivärinta. *Semantic Web Journal*.
+  [link](https://www.semantic-web-journal.net/system/files/swj3745.pdf)
 
 ---
 
@@ -203,18 +236,9 @@ If this survey is useful in your research, please consider citing it. Citing a r
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing & license
 
-Found a paper we missed? Open an issue or pull request to help keep this survey up to date. Contributions to expand coverage beyond 2022 are especially welcome.
+Contributions are very welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) and our
+[Code of Conduct](CODE_OF_CONDUCT.md). Released under the [MIT License](LICENSE).
 
----
-
-## 📄 License
-
-This repository is licensed under the terms of the [LICENSE](LICENSE) file.
-
----
-
-<p align="center">
-  <i>If this work helped your research, please ⭐ star this repository and cite the paper!</i>
-</p>
+<p align="center"><i>If this helped your research, please ⭐ star the repository and cite the paper.</i></p>

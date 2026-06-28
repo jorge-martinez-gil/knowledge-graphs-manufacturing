@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this repository or its dataset, please cite the survey below."
+title: "Knowledge Graphs in Manufacturing — Literature Database, Catalogs & Benchmark"
+abstract: >-
+  An open, machine-readable database and catalog for research on knowledge graphs in
+  manufacturing (Industry 4.0/5.0, digital twins, manufacturing ontologies, predictive
+  maintenance and semantic interoperability), accompanying the peer-reviewed survey
+  "Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A
+  Comprehensive Review".
+type: dataset
+authors:
+  - family-names: Martinez-Gil
+    given-names: Jorge
+    affiliation: Software Competence Center Hagenberg (SCCH), Austria
+repository-code: "https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing"
+url: "https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/"
+license: MIT
+keywords:
+  - knowledge graphs
+  - manufacturing
+  - Industry 4.0
+  - Industry 5.0
+  - digital twin
+  - manufacturing ontology
+  - semantic interoperability
+  - smart manufacturing
+preferred-citation:
+  type: chapter
+  title: "Examining the Adoption of Knowledge Graphs in the Manufacturing Industry: A Comprehensive Review"
+  year: 2024
+  collection-title: "Artificial Intelligence in Manufacturing: Enabling Intelligent, Flexible and Cost-Effective Production Through AI"
+  publisher:
+    name: "Springer Nature Switzerland"
+  start: 55
+  end: 70
+  isbn: "978-3-031-46452-2"
+  doi: "10.1007/978-3-031-46452-2_4"
+  url: "https://doi.org/10.1007/978-3-031-46452-2_4"
+  editors:
+    - family-names: Soldatos
+      given-names: John
+  authors:
+    - family-names: Martinez-Gil
+      given-names: Jorge
+    - family-names: Hoch
+      given-names: Thomas
+    - family-names: Pichler
+      given-names: Mario
+    - family-names: Heinzl
+      given-names: Bernhard
+    - family-names: Moser
+      given-names: Bernhard
+    - family-names: Kurniawan
+      given-names: Kabul
+    - family-names: Kiesling
+      given-names: Elmar
+    - family-names: Krause
+      given-names: Franz

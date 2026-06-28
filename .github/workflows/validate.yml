@@ -1,0 +1,29 @@
+name: validate-data
+
+on:
+  push:
+    paths: ["data/**", "scripts/**", ".github/workflows/validate.yml"]
+  pull_request:
+    paths: ["data/**", "scripts/**"]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate canonical datasets
+        run: python3 scripts/validate.py
+      - name: Rebuild derived artifacts
+        run: python3 scripts/build.py
+      - name: Fail if generated files are out of sync with data/*.json
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Generated files are out of date. Run 'python3 scripts/build.py' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi
+          echo "Generated files are in sync."

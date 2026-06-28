@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 746" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="A taxonomy of manufacturing knowledge graphs">
+<rect width="880" height="746" fill="#ffffff"/>
+<text x="40" y="40" font-size="19" fill="#16243a" text-anchor="start" font-weight="700">A Taxonomy of Manufacturing Knowledge Graphs</text>
+<text x="40" y="60" font-size="12" fill="#5b6b82" text-anchor="start" font-weight="normal">from semantic foundations, through construction, to industrial applications and the standards they align with</text>
+<rect x="20" y="381.0" width="40" height="44" rx="8" fill="#16243a"/>
+<text x="40" y="401.0" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">MfG</text>
+<text x="40" y="415.0" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">KG</text>
+<path d="M60 403 C 110 403, 110 156, 150 156" stroke="#0a9396" stroke-width="2" fill="none" opacity="0.6"/>
+<rect x="150" y="90" width="190" height="132" rx="9" fill="#0a9396"/>
+<text x="245.0" y="161.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">Foundations</text>
+<path d="M340 156 C 355 156, 355 105, 370 105" stroke="#0a9396" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="90" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="109.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">RDF / OWL / SHACL / SPARQL</text>
+<path d="M340 156 C 355 156, 355 135, 370 135" stroke="#0a9396" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="120" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="139.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Upper &amp; domain ontologies</text>
+<path d="M340 156 C 355 156, 355 165, 370 165" stroke="#0a9396" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="150" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="169.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">KG embeddings &amp; GNNs</text>
+<path d="M340 156 C 355 156, 355 195, 370 195" stroke="#0a9396" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="180" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="199.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Reasoning &amp; rules</text>
+<path d="M60 403 C 110 403, 110 302, 150 302" stroke="#1f6feb" stroke-width="2" fill="none" opacity="0.6"/>
+<rect x="150" y="236" width="190" height="132" rx="9" fill="#1f6feb"/>
+<text x="245.0" y="307.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">Construction</text>
+<path d="M340 302 C 355 302, 355 251, 370 251" stroke="#1f6feb" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="236" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="255.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">From databases &amp; OPC UA</text>
+<path d="M340 302 C 355 302, 355 281, 370 281" stroke="#1f6feb" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="266" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="285.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">From text (NLP / LLM)</text>
+<path d="M340 302 C 355 302, 355 311, 370 311" stroke="#1f6feb" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="296" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="315.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">From BPMN &amp; process models</text>
+<path d="M340 302 C 355 302, 355 341, 370 341" stroke="#1f6feb" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="326" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="345.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Fusion &amp; completion</text>
+<path d="M60 403 C 110 403, 110 499, 150 499" stroke="#ee9b00" stroke-width="2" fill="none" opacity="0.6"/>
+<rect x="150" y="382" width="190" height="234" rx="9" fill="#ee9b00"/>
+<text x="245.0" y="504.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">Applications</text>
+<path d="M340 499 C 355 499, 355 397, 370 397" stroke="#ee9b00" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="382" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="401.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Digital twins &amp; CPS</text>
+<path d="M340 499 C 355 499, 355 427, 370 427" stroke="#ee9b00" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="412" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="431.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Predictive maintenance</text>
+<path d="M340 499 C 355 499, 355 457, 370 457" stroke="#ee9b00" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="442" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="461.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Quality control &amp; root-cause</text>
+<path d="M340 499 C 355 499, 355 487, 370 487" stroke="#ee9b00" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="472" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="491.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Process &amp; production planning</text>
+<path d="M340 499 C 355 499, 355 517, 370 517" stroke="#ee9b00" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="502" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="521.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Resource allocation &amp; scheduling</text>
+<path d="M340 499 C 355 499, 355 547, 370 547" stroke="#ee9b00" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="532" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="551.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Supply chain &amp; logistics</text>
+<path d="M340 499 C 355 499, 355 577, 370 577" stroke="#ee9b00" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="562" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="581.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">Product design &amp; PLM</text>
+<path d="M60 403 C 110 403, 110 696, 150 696" stroke="#9b2226" stroke-width="2" fill="none" opacity="0.6"/>
+<rect x="150" y="630" width="190" height="132" rx="9" fill="#9b2226"/>
+<text x="245.0" y="701.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">Enabling standards</text>
+<path d="M340 696 C 355 696, 355 645, 370 645" stroke="#9b2226" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="630" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="649.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">RAMI 4.0 / AAS</text>
+<path d="M340 696 C 355 696, 355 675, 370 675" stroke="#9b2226" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="660" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="679.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">ISA-95 / ISA-88</text>
+<path d="M340 696 C 355 696, 355 705, 370 705" stroke="#9b2226" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="690" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="709.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">OPC UA / AutomationML</text>
+<path d="M340 696 C 355 696, 355 735, 370 735" stroke="#9b2226" stroke-width="1.4" fill="none" opacity="0.5"/>
+<rect x="370" y="720" width="320" height="24" rx="6" fill="#f4f7fb" stroke="#e3e8ef"/>
+<text x="382" y="739.0" font-size="12" fill="#16243a" text-anchor="start" font-weight="normal">MTConnect / QIF</text>
+</svg>

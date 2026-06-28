@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Manufacturing knowledge-graph papers per year">
+<rect width="760" height="420" fill="#ffffff"/>
+<text x="60" y="34" font-size="18" fill="#16243a" text-anchor="start" font-weight="700">Manufacturing Knowledge-Graph Publications per Year</text>
+<text x="60" y="52" font-size="12" fill="#5b6b82" text-anchor="start" font-weight="normal">64 curated papers - source: data/papers.json</text>
+<line x1="60" y1="360.0" x2="730" y2="360.0" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="364.0" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">0</text>
+<line x1="60" y1="335.8" x2="730" y2="335.8" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="339.8333333333333" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">1</text>
+<line x1="60" y1="311.7" x2="730" y2="311.7" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="315.6666666666667" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">2</text>
+<line x1="60" y1="287.5" x2="730" y2="287.5" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="291.5" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">3</text>
+<line x1="60" y1="263.3" x2="730" y2="263.3" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="267.33333333333337" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">4</text>
+<line x1="60" y1="239.2" x2="730" y2="239.2" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="243.16666666666666" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">5</text>
+<line x1="60" y1="215.0" x2="730" y2="215.0" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="219.0" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">6</text>
+<line x1="60" y1="190.8" x2="730" y2="190.8" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="194.83333333333331" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">7</text>
+<line x1="60" y1="166.7" x2="730" y2="166.7" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="170.66666666666669" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">8</text>
+<line x1="60" y1="142.5" x2="730" y2="142.5" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="146.5" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">9</text>
+<line x1="60" y1="118.3" x2="730" y2="118.3" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="122.33333333333331" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">10</text>
+<line x1="60" y1="94.2" x2="730" y2="94.2" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="98.16666666666669" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">11</text>
+<line x1="60" y1="70.0" x2="730" y2="70.0" stroke="#e3e8ef" stroke-width="1"/>
+<text x="52" y="74.0" font-size="11" fill="#5b6b82" text-anchor="end" font-weight="normal">12</text>
+<rect x="71.6" y="311.7" width="37.8" height="48.3" rx="3" fill="#1f6feb"/>
+<text x="90.45454545454545" y="305.6666666666667" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">2</text>
+<text x="90.45454545454545" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2016</text>
+<rect x="132.5" y="215.0" width="37.8" height="145.0" rx="3" fill="#1f6feb"/>
+<text x="151.36363636363635" y="209.0" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">6</text>
+<text x="151.36363636363635" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2017</text>
+<rect x="193.4" y="239.2" width="37.8" height="120.8" rx="3" fill="#1f6feb"/>
+<text x="212.27272727272725" y="233.16666666666666" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">5</text>
+<text x="212.27272727272725" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2018</text>
+<rect x="254.3" y="94.2" width="37.8" height="265.8" rx="3" fill="#1f6feb"/>
+<text x="273.1818181818182" y="88.16666666666669" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">11</text>
+<text x="273.1818181818182" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2019</text>
+<rect x="315.2" y="215.0" width="37.8" height="145.0" rx="3" fill="#1f6feb"/>
+<text x="334.09090909090907" y="209.0" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">6</text>
+<text x="334.09090909090907" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2020</text>
+<rect x="376.1" y="215.0" width="37.8" height="145.0" rx="3" fill="#1f6feb"/>
+<text x="394.99999999999994" y="209.0" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">6</text>
+<text x="394.99999999999994" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2021</text>
+<rect x="437.0" y="118.3" width="37.8" height="241.7" rx="3" fill="#1f6feb"/>
+<text x="455.9090909090909" y="112.33333333333331" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">10</text>
+<text x="455.9090909090909" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2022</text>
+<rect x="497.9" y="311.7" width="37.8" height="48.3" rx="3" fill="#ee9b00"/>
+<text x="516.8181818181819" y="305.6666666666667" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">2</text>
+<text x="516.8181818181819" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2023</text>
+<rect x="558.8" y="166.7" width="37.8" height="193.3" rx="3" fill="#ee9b00"/>
+<text x="577.7272727272727" y="160.66666666666669" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">8</text>
+<text x="577.7272727272727" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2024</text>
+<rect x="619.8" y="239.2" width="37.8" height="120.8" rx="3" fill="#ee9b00"/>
+<text x="638.6363636363636" y="233.16666666666666" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">5</text>
+<text x="638.6363636363636" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2025</text>
+<rect x="680.7" y="287.5" width="37.8" height="72.5" rx="3" fill="#ee9b00"/>
+<text x="699.5454545454545" y="281.5" font-size="12" fill="#16243a" text-anchor="middle" font-weight="700">3</text>
+<text x="699.5454545454545" y="378" font-size="11" fill="#5b6b82" text-anchor="middle" font-weight="normal">2026</text>
+<rect x="520" y="62" width="12" height="12" fill="#1f6feb"/><text x="538" y="72" font-size="11" fill="#5b6b82" text-anchor="start" font-weight="normal">original survey (2016-2022)</text>
+<rect x="520" y="80" width="12" height="12" fill="#ee9b00"/><text x="538" y="90" font-size="11" fill="#5b6b82" text-anchor="start" font-weight="normal">added &amp; verified (2023-2026)</text>
+<text x="60" y="406" font-size="11" fill="#5b6b82" text-anchor="start" font-weight="normal">A living, version-controlled bibliography</text>
+</svg>

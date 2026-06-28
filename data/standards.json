@@ -1,0 +1,146 @@
+[
+  {
+    "name": "RAMI 4.0",
+    "full_name": "Reference Architecture Model Industrie 4.0 (DIN SPEC 91345:2016)",
+    "purpose": "3D reference architecture structuring I4.0 assets across lifecycle, hierarchy, layers",
+    "body": "Plattform Industrie 4.0 / ZVEI / DIN",
+    "url": "https://www.plattform-i40.de/IP/Redaktion/EN/Downloads/Publikation/rami40-an-introduction.html",
+    "source": "https://webstore.ansi.org/standards/din/DINSPEC913452016"
+  },
+  {
+    "name": "AAS",
+    "full_name": "Asset Administration Shell - IEC 63278-1:2023",
+    "purpose": "Standardized digital-twin / interoperable digital representation of industrial assets",
+    "body": "IEC TC 65 / IDTA",
+    "url": "https://webstore.iec.ch/en/publication/65628",
+    "source": "https://webstore.iec.ch/en/publication/65628"
+  },
+  {
+    "name": "OPC UA",
+    "full_name": "IEC 62541 (OPC Unified Architecture)",
+    "purpose": "Platform-independent service-oriented communication & information modeling for industry",
+    "body": "OPC Foundation / IEC TC 65",
+    "url": "https://opcfoundation.org/about/opc-technologies/opc-ua/",
+    "source": "https://opcfoundation.org/about/opc-technologies/opc-ua/"
+  },
+  {
+    "name": "ISA-95",
+    "full_name": "IEC 62264 / ANSI-ISA-95",
+    "purpose": "Models & terminology for integrating enterprise (ERP) and control (MES) systems",
+    "body": "ISA / IEC TC 65",
+    "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard",
+    "source": "https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard"
+  },
+  {
+    "name": "ISA-88",
+    "full_name": "IEC 61512 / ANSI-ISA-88",
+    "purpose": "Reference models & terminology for batch process control (recipes, equipment)",
+    "body": "ISA / IEC TC 65",
+    "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-88-standards",
+    "source": "https://webstore.iec.ch/en/publication/5528"
+  },
+  {
+    "name": "IEC 61499",
+    "full_name": "IEC 61499 Function blocks",
+    "purpose": "Event-driven function-block architecture for distributed, reconfigurable control",
+    "body": "IEC TC 65",
+    "url": "https://webstore.iec.ch/en/publication/5506",
+    "source": "https://webstore.iec.ch/en/publication/5506"
+  },
+  {
+    "name": "AutomationML",
+    "full_name": "IEC 62714",
+    "purpose": "Open XML/CAEX-based format for exchanging engineering data across tools",
+    "body": "IEC TC 65 / AutomationML e.V.",
+    "url": "https://www.automationml.org/about-automationml/specifications/",
+    "source": "https://www.automationml.org/about-automationml/specifications/"
+  },
+  {
+    "name": "ECLASS",
+    "full_name": "ECLASS classification standard (ISO 13584 / IEC 61360 compliant)",
+    "purpose": "Standardized classification system & property dictionary for product master data",
+    "body": "ECLASS e.V.",
+    "url": "https://eclass.eu/en/",
+    "source": "https://eclass.eu/en/"
+  },
+  {
+    "name": "ISO 10303 (STEP)",
+    "full_name": "ISO 10303 - Product data representation and exchange",
+    "purpose": "Computer-interpretable representation & exchange of product data (CAD/CAM/PDM)",
+    "body": "ISO TC 184/SC 4",
+    "url": "https://www.iso.org/standard/72237.html",
+    "source": "https://www.iso.org/standard/72237.html"
+  },
+  {
+    "name": "ISO 15926",
+    "full_name": "ISO 15926 - Integration of life-cycle data for process plants",
+    "purpose": "Conceptual data model & reference data for process-plant lifecycle information",
+    "body": "ISO TC 184/SC 4",
+    "url": "https://www.iso.org/standard/29557.html",
+    "source": "https://www.iso.org/standard/29557.html"
+  },
+  {
+    "name": "MTConnect",
+    "full_name": "ANSI/MTC1.4 (MTConnect Standard)",
+    "purpose": "Open, royalty-free XML semantic vocabulary/protocol to read data from equipment",
+    "body": "MTConnect Institute (AMT)",
+    "url": "https://www.mtconnect.org/",
+    "source": "https://www.mtconnect.org/about"
+  },
+  {
+    "name": "QIF",
+    "full_name": "Quality Information Framework (ISO 23952:2020)",
+    "purpose": "Unified XML framework for exchanging metrology/quality information across the MBE lifecycle",
+    "body": "DMSC / ISO",
+    "url": "https://qifstandards.org/",
+    "source": "https://www.iso.org/standard/77461.html"
+  },
+  {
+    "name": "RDF",
+    "full_name": "RDF 1.1 Concepts and Abstract Syntax",
+    "purpose": "Graph-based data model of subject-predicate-object triples",
+    "body": "W3C",
+    "url": "https://www.w3.org/TR/rdf11-concepts/",
+    "source": "https://www.w3.org/TR/rdf11-concepts/"
+  },
+  {
+    "name": "RDF 1.2 / RDF-star",
+    "full_name": "RDF 1.2 Concepts and Abstract Data Model",
+    "purpose": "Adds triple terms (statements about statements) for edge-level metadata",
+    "body": "W3C",
+    "url": "https://www.w3.org/TR/rdf12-concepts/",
+    "source": "https://www.w3.org/TR/rdf12-concepts/"
+  },
+  {
+    "name": "OWL 2",
+    "full_name": "OWL 2 Web Ontology Language",
+    "purpose": "Formal ontology language for the Semantic Web with defined semantics",
+    "body": "W3C",
+    "url": "https://www.w3.org/TR/owl2-overview/",
+    "source": "https://www.w3.org/TR/owl2-overview/"
+  },
+  {
+    "name": "SHACL",
+    "full_name": "Shapes Constraint Language",
+    "purpose": "Language for validating RDF graphs against constraints expressed as shapes",
+    "body": "W3C",
+    "url": "https://www.w3.org/TR/shacl/",
+    "source": "https://www.w3.org/TR/shacl/"
+  },
+  {
+    "name": "SPARQL 1.1",
+    "full_name": "SPARQL 1.1 Query Language",
+    "purpose": "Query language and protocol for retrieving and manipulating RDF data",
+    "body": "W3C",
+    "url": "https://www.w3.org/TR/sparql11-query/",
+    "source": "https://www.w3.org/TR/sparql11-query/"
+  },
+  {
+    "name": "PROV-O",
+    "full_name": "PROV-O: The PROV Ontology",
+    "purpose": "OWL 2 ontology for representing & interchanging provenance",
+    "body": "W3C",
+    "url": "https://www.w3.org/TR/prov-o/",
+    "source": "https://www.w3.org/TR/prov-o/"
+  }
+]

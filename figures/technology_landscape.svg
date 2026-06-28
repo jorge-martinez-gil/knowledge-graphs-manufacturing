@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="The manufacturing knowledge-graph technology landscape">
+<rect width="880" height="470" fill="#ffffff"/>
+<text x="40" y="38" font-size="19" fill="#16243a" text-anchor="start" font-weight="700">The Manufacturing Knowledge-Graph Technology Stack</text>
+<text x="40" y="58" font-size="12" fill="#5b6b82" text-anchor="start" font-weight="normal">how raw shop-floor data becomes decisions: a layered reference pipeline</text>
+<rect x="40" y="80" width="800" height="88" rx="12" fill="#0a9396" opacity="0.10"/>
+<rect x="40" y="80" width="6" height="88" rx="3" fill="#0a9396"/>
+<text x="60" y="106" font-size="14" fill="#16243a" text-anchor="start" font-weight="700">Industrial data sources</text>
+<rect x="60" y="124" width="109" height="24" rx="12" fill="#ffffff" stroke="#0a9396"/>
+<text x="114.5" y="140" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Sensors / IIoT</text>
+<rect x="179" y="124" width="74" height="24" rx="12" fill="#ffffff" stroke="#0a9396"/>
+<text x="216.0" y="140" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">MES / ERP</text>
+<rect x="263" y="124" width="53" height="24" rx="12" fill="#ffffff" stroke="#0a9396"/>
+<text x="289.5" y="140" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">OPC UA</text>
+<rect x="326" y="124" width="74" height="24" rx="12" fill="#ffffff" stroke="#0a9396"/>
+<text x="363.0" y="140" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">CAD / PLM</text>
+<rect x="410" y="124" width="123" height="24" rx="12" fill="#ffffff" stroke="#0a9396"/>
+<text x="471.5" y="140" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Documents &amp; logs</text>
+<path d="M432.0 169 l 8 8 l 8 -8 z" fill="#5b6b82"/>
+<rect x="40" y="178" width="800" height="88" rx="12" fill="#1f6feb" opacity="0.10"/>
+<rect x="40" y="178" width="6" height="88" rx="3" fill="#1f6feb"/>
+<text x="60" y="204" font-size="14" fill="#16243a" text-anchor="start" font-weight="700">Semantic lifting &amp; construction</text>
+<rect x="60" y="222" width="88" height="24" rx="12" fill="#ffffff" stroke="#1f6feb"/>
+<text x="104.0" y="238" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">RML / R2RML</text>
+<rect x="158" y="222" width="151" height="24" rx="12" fill="#ffffff" stroke="#1f6feb"/>
+<text x="233.5" y="238" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">NLP &amp; LLM extraction</text>
+<rect x="319" y="222" width="123" height="24" rx="12" fill="#ffffff" stroke="#1f6feb"/>
+<text x="380.5" y="238" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Ontology mapping</text>
+<rect x="452" y="222" width="130" height="24" rx="12" fill="#ffffff" stroke="#1f6feb"/>
+<text x="517.0" y="238" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Entity resolution</text>
+<path d="M432.0 267 l 8 8 l 8 -8 z" fill="#5b6b82"/>
+<rect x="40" y="276" width="800" height="88" rx="12" fill="#5e548e" opacity="0.10"/>
+<rect x="40" y="276" width="6" height="88" rx="3" fill="#5e548e"/>
+<text x="60" y="302" font-size="14" fill="#16243a" text-anchor="start" font-weight="700">Knowledge graph &amp; reasoning</text>
+<rect x="60" y="320" width="165" height="24" rx="12" fill="#ffffff" stroke="#5e548e"/>
+<text x="142.5" y="336" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Triplestore / graph DB</text>
+<rect x="235" y="320" width="102" height="24" rx="12" fill="#ffffff" stroke="#5e548e"/>
+<text x="286.0" y="336" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">OWL reasoning</text>
+<rect x="347" y="320" width="123" height="24" rx="12" fill="#ffffff" stroke="#5e548e"/>
+<text x="408.5" y="336" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">SHACL validation</text>
+<rect x="480" y="320" width="123" height="24" rx="12" fill="#ffffff" stroke="#5e548e"/>
+<text x="541.5" y="336" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Embeddings / GNN</text>
+<path d="M432.0 365 l 8 8 l 8 -8 z" fill="#5b6b82"/>
+<rect x="40" y="374" width="800" height="88" rx="12" fill="#ee9b00" opacity="0.10"/>
+<rect x="40" y="374" width="6" height="88" rx="3" fill="#ee9b00"/>
+<text x="60" y="400" font-size="14" fill="#16243a" text-anchor="start" font-weight="700">Manufacturing applications</text>
+<rect x="60" y="418" width="95" height="24" rx="12" fill="#ffffff" stroke="#ee9b00"/>
+<text x="107.5" y="434" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Digital twin</text>
+<rect x="165" y="418" width="165" height="24" rx="12" fill="#ffffff" stroke="#ee9b00"/>
+<text x="247.5" y="434" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Predictive maintenance</text>
+<rect x="340" y="418" width="151" height="24" rx="12" fill="#ffffff" stroke="#ee9b00"/>
+<text x="415.5" y="434" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Root-cause / quality</text>
+<rect x="501" y="418" width="158" height="24" rx="12" fill="#ffffff" stroke="#ee9b00"/>
+<text x="580.0" y="434" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">Planning &amp; scheduling</text>
+<rect x="669" y="418" width="130" height="24" rx="12" fill="#ffffff" stroke="#ee9b00"/>
+<text x="734.0" y="434" font-size="11.5" fill="#16243a" text-anchor="middle" font-weight="normal">GraphRAG copilots</text>
+</svg>

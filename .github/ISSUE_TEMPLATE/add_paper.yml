@@ -1,0 +1,66 @@
+name: "📄 Add a paper"
+description: Suggest a paper on knowledge graphs in manufacturing for the bibliography.
+title: "[paper] <title>"
+labels: ["paper", "literature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the bibliography current! Please provide a **resolvable link**
+        (a DOI is best). We only add entries we can verify.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Full paper title
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: "Lastname, A.; Other, B.; ..."
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      placeholder: "2025"
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue (journal / conference / publisher)
+    validations:
+      required: true
+  - type: input
+    id: doi
+    attributes:
+      label: DOI or URL (must resolve)
+      placeholder: "https://doi.org/10.xxxx/xxxxx"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [journal, conference, workshop, chapter, preprint]
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Suggested tags
+      description: "From the controlled vocabulary in data/README.md, comma-separated."
+      placeholder: "digital-twin, ontology"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verification
+      options:
+        - label: The link above resolves to the actual paper.
+          required: true
+        - label: This paper is about knowledge graphs / ontologies in a manufacturing or industrial context.
+          required: true

@@ -1,0 +1,194 @@
+[
+  {
+    "name": "MASON",
+    "full_name": "MAnufacturing's Semantics ONtology",
+    "scope": "Upper/domain ontology for manufacturing (entities, operations, resources; OWL-DL)",
+    "url": "https://sourceforge.net/projects/mason-onto/",
+    "license": "unverified",
+    "source": "https://sourceforge.net/projects/mason-onto/"
+  },
+  {
+    "name": "IOF-Core",
+    "full_name": "Industrial Ontologies Foundry Core Ontology",
+    "scope": "BFO-aligned mid-level ontology of terms common across manufacturing operations",
+    "url": "https://spec.industrialontologies.org/iof/ontology/core/Core/",
+    "license": "MIT",
+    "source": "https://github.com/iofoundry/ontology"
+  },
+  {
+    "name": "IOF-Maintenance",
+    "full_name": "IOF Maintenance Reference Ontology",
+    "scope": "IOF/BFO-aligned modular ontology for industrial maintenance (OWL 2 DL)",
+    "url": "https://spec.industrialontologies.org/iof/ontology/maintenance/Maintenance/",
+    "license": "MIT",
+    "source": "https://github.com/iofoundry/ontology"
+  },
+  {
+    "name": "IOF-SupplyChain",
+    "full_name": "IOF Supply Chain Reference Ontology (SCRO)",
+    "scope": "IOF Core extension for supply chain & logistics interoperability",
+    "url": "https://github.com/iofoundry/ontology",
+    "license": "MIT",
+    "source": "https://github.com/iofoundry/ontology"
+  },
+  {
+    "name": "P-PSO",
+    "full_name": "Politecnico di Milano Production Systems Ontology",
+    "scope": "Meta-model/domain ontology of production systems (discrete + process, logistics)",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-319-22759-7_56",
+    "license": "unverified",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-319-22759-7_56"
+  },
+  {
+    "name": "MSDL",
+    "full_name": "Manufacturing Service Description Language",
+    "scope": "OWL-DL ontology for manufacturing service/capability description & supplier matchmaking",
+    "url": "https://labs.engineering.asu.edu/semantics/ontology-download/msdl-ontology/",
+    "license": "unverified",
+    "source": "https://labs.engineering.asu.edu/semantics/ontology-download/msdl-ontology/"
+  },
+  {
+    "name": "ADACOR",
+    "full_name": "ADAptive holonic COntrol aRchitecture core ontology",
+    "scope": "DOLCE-aligned ontology for holonic/distributed manufacturing control",
+    "url": "https://www.researchgate.net/publication/226253278_Foundations_for_a_Core_Ontology_of_Manufacturing",
+    "license": "unverified",
+    "source": "https://www.researchgate.net/publication/226253278_Foundations_for_a_Core_Ontology_of_Manufacturing"
+  },
+  {
+    "name": "ONTO-PDM",
+    "full_name": "Product-driven ONTOlogy for Product Data Management",
+    "scope": "Product-centric ontology for PDM / product-lifecycle interoperability",
+    "url": "https://doi.org/10.1016/j.aei.2011.12.002",
+    "license": "unverified",
+    "source": "https://hal.science/hal-00650352"
+  },
+  {
+    "name": "PRONTO",
+    "full_name": "PRoduct ONTOlogy (Vegetti, Henning & Leone)",
+    "scope": "Domain ontology for product information modelling (variants/BOMs)",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0952197611000388",
+    "license": "unverified",
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0952197611000388"
+  },
+  {
+    "name": "MaRCO",
+    "full_name": "Manufacturing Resource Capability Ontology",
+    "scope": "OWL ontology for resource capabilities + inference of combined capabilities",
+    "url": "https://doi.org/10.1007/s10845-018-1427-6",
+    "license": "unverified",
+    "source": "https://link.springer.com/article/10.1007/s10845-018-1427-6"
+  },
+  {
+    "name": "OntoCAPE",
+    "full_name": "OntoCAPE",
+    "scope": "Large-scale formal ontology for Computer-Aided Process Engineering",
+    "url": "https://www.avt.rwth-aachen.de/cms/avt/forschung/sonstiges/software/~ipts/ontocape/",
+    "license": "unverified",
+    "source": "https://link.springer.com/book/10.1007/978-3-642-04655-1"
+  },
+  {
+    "name": "AAS-RDF",
+    "full_name": "Asset Administration Shell RDF/OWL Ontology",
+    "scope": "Semantic (RDF/OWL) representation of the Industrie 4.0 AAS metamodel",
+    "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+    "license": "unverified",
+    "source": "https://github.com/admin-shell-io/aas-specs-metamodel"
+  },
+  {
+    "name": "SAREF",
+    "full_name": "Smart Applications REFerence ontology (Core)",
+    "scope": "ETSI core ontology for smart appliances/IoT interoperability",
+    "url": "https://saref.etsi.org/core/",
+    "license": "ETSI (open)",
+    "source": "https://saref.etsi.org/"
+  },
+  {
+    "name": "SAREF4INMA",
+    "full_name": "SAREF extension for Industry and Manufacturing",
+    "scope": "ETSI TS 103 410-5 extension (equipment, items, batches, traceability)",
+    "url": "https://saref.etsi.org/saref4inma/",
+    "license": "ETSI (open)",
+    "source": "https://www.etsi.org/deliver/etsi_ts/103400_103499/10341005/"
+  },
+  {
+    "name": "SSN",
+    "full_name": "Semantic Sensor Network Ontology",
+    "scope": "W3C/OGC standard ontology for sensors, observations, sampling, actuation",
+    "url": "https://www.w3.org/TR/vocab-ssn/",
+    "license": "W3C Document License",
+    "source": "https://www.w3.org/TR/vocab-ssn/"
+  },
+  {
+    "name": "SOSA",
+    "full_name": "Sensor, Observation, Sample, and Actuator",
+    "scope": "Lightweight self-contained core of SSN (W3C Recommendation)",
+    "url": "https://www.w3.org/ns/sosa/",
+    "license": "W3C Document License",
+    "source": "https://www.w3.org/TR/vocab-ssn/"
+  },
+  {
+    "name": "BFO",
+    "full_name": "Basic Formal Ontology (2020)",
+    "scope": "Top-level/upper ontology (ISO/IEC 21838-2); foundation for IOF",
+    "url": "https://basic-formal-ontology.org/bfo-2020.html",
+    "license": "open (BSD/CC)",
+    "source": "http://obofoundry.org/ontology/bfo.html"
+  },
+  {
+    "name": "CCO",
+    "full_name": "Common Core Ontologies",
+    "scope": "BFO-aligned mid-level ontology suite bridging BFO to domain ontologies",
+    "url": "https://github.com/CommonCoreOntology/CommonCoreOntologies",
+    "license": "BSD-3-Clause",
+    "source": "https://github.com/CommonCoreOntology/CommonCoreOntologies"
+  },
+  {
+    "name": "ifcOWL",
+    "full_name": "Industry Foundation Classes (OWL)",
+    "scope": "OWL ontology of the IFC built-environment/AEC data model (ISO 16739)",
+    "url": "https://technical.buildingsmart.org/standards/ifc/",
+    "license": "unverified",
+    "source": "https://technical.buildingsmart.org/standards/ifc/"
+  },
+  {
+    "name": "DOLCE",
+    "full_name": "Descriptive Ontology for Linguistic and Cognitive Engineering",
+    "scope": "Foundational/top-level ontology (LOA-ISTC-CNR)",
+    "url": "https://www.loa.istc.cnr.it/index.php/dolce/",
+    "license": "unverified",
+    "source": "https://www.loa.istc.cnr.it/index.php/dolce/"
+  },
+  {
+    "name": "OntoSTEP",
+    "full_name": "OntoSTEP (NIST)",
+    "scope": "OWL-DL ontology/translation of ISO 10303 STEP product model data",
+    "url": "https://www.nist.gov/services-resources/software/ontostep-plugin",
+    "license": "US Govt / public domain",
+    "source": "https://www.nist.gov/services-resources/software/ontostep-plugin"
+  },
+  {
+    "name": "Brick",
+    "full_name": "Brick Schema",
+    "scope": "Ontology for buildings/facility automation systems & assets (smart-factory facility layer)",
+    "url": "https://brickschema.org/",
+    "license": "BSD-3-Clause",
+    "source": "https://github.com/BrickSchema/Brick"
+  },
+  {
+    "name": "OPC-UA-ODP",
+    "full_name": "OPC UA NodeSet / Ontology Design Pattern (OWL)",
+    "scope": "OWL ontologies mapping OPC UA information models & companion specs to RDF/OWL",
+    "url": "https://github.com/hsu-aut/IndustrialStandard-ODP-OPC-UA",
+    "license": "unverified",
+    "source": "https://journals.sagepub.com/doi/10.3233/SW-233342"
+  },
+  {
+    "name": "IndustryPortal",
+    "full_name": "IndustryPortal - FAIR ontology repository for Industry 4.0",
+    "scope": "AgroPortal-based registry hosting/curating industrial ontologies (registry hub, not an ontology)",
+    "url": "https://industryportal.enit.fr/",
+    "license": "n/a (repository)",
+    "source": "https://industryportal.enit.fr/"
+  }
+]

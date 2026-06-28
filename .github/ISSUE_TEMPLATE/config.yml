@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Read the contribution guide
+    url: https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing/blob/main/CONTRIBUTING.md
+    about: How the data is structured and how to open a good pull request.
+  - name: 🔎 Browse the interactive literature explorer
+    url: https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/
+    about: Search and filter the existing bibliography before suggesting additions.

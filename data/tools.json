@@ -1,0 +1,266 @@
+[
+  {
+    "name": "GraphDB",
+    "category": "Triplestore / Graph DB",
+    "description": "Enterprise RDF triplestore by Ontotext with reasoning, SHACL and SPARQL",
+    "url": "https://www.ontotext.com/products/graphdb/",
+    "license": "proprietary (Workbench UI Apache-2.0)",
+    "source": "https://github.com/Ontotext-AD/graphdb-workbench"
+  },
+  {
+    "name": "Apache Jena / Fuseki",
+    "category": "Triplestore / Graph DB",
+    "description": "Java RDF framework with TDB store and Fuseki SPARQL 1.1 server",
+    "url": "https://jena.apache.org/",
+    "license": "Apache-2.0",
+    "source": "https://github.com/apache/jena"
+  },
+  {
+    "name": "Stardog",
+    "category": "Triplestore / Graph DB",
+    "description": "Enterprise knowledge graph platform with RDF storage, reasoning and virtualization",
+    "url": "https://www.stardog.com/",
+    "license": "proprietary (free tier)",
+    "source": "https://www.stardog.com/"
+  },
+  {
+    "name": "Virtuoso",
+    "category": "Triplestore / Graph DB",
+    "description": "Multi-model RDBMS, RDF triplestore and SPARQL/Linked Data server",
+    "url": "https://github.com/openlink/virtuoso-opensource",
+    "license": "GPL-2.0 (open edition)",
+    "source": "https://github.com/openlink/virtuoso-opensource"
+  },
+  {
+    "name": "Blazegraph",
+    "category": "Triplestore / Graph DB",
+    "description": "High-performance RDF/SPARQL graph database (powers Wikidata Query Service)",
+    "url": "https://github.com/blazegraph/database",
+    "license": "GPL-2.0 (dual)",
+    "source": "https://github.com/blazegraph/database"
+  },
+  {
+    "name": "Neo4j",
+    "category": "Triplestore / Graph DB",
+    "description": "Native property-graph database with the Cypher query language",
+    "url": "https://github.com/neo4j/neo4j",
+    "license": "GPLv3 (Community)",
+    "source": "https://github.com/neo4j/neo4j"
+  },
+  {
+    "name": "RDFox",
+    "category": "Triplestore / Graph DB",
+    "description": "In-memory RDF store with Datalog (OWL 2 RL) and SWRL reasoning, SPARQL",
+    "url": "https://www.oxfordsemantic.tech/rdfox",
+    "license": "proprietary",
+    "source": "https://www.oxfordsemantic.tech/rdfox"
+  },
+  {
+    "name": "Amazon Neptune",
+    "category": "Triplestore / Graph DB",
+    "description": "Fully managed AWS graph database supporting RDF/SPARQL and property graphs",
+    "url": "https://aws.amazon.com/neptune/",
+    "license": "proprietary (managed)",
+    "source": "https://docs.aws.amazon.com/neptune/latest/userguide/intro.html"
+  },
+  {
+    "name": "Oxigraph",
+    "category": "Triplestore / Graph DB",
+    "description": "SPARQL 1.1 graph database written in Rust, based on RocksDB",
+    "url": "https://github.com/oxigraph/oxigraph",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://github.com/oxigraph/oxigraph"
+  },
+  {
+    "name": "QLever",
+    "category": "Triplestore / Graph DB",
+    "description": "Very fast SPARQL engine scaling to trillions of triples with text search",
+    "url": "https://github.com/ad-freiburg/qlever",
+    "license": "Apache-2.0",
+    "source": "https://github.com/ad-freiburg/qlever"
+  },
+  {
+    "name": "Protege",
+    "category": "Ontology editor",
+    "description": "Stanford's widely used OWL 2 ontology editor with reasoner integration",
+    "url": "https://protege.stanford.edu/",
+    "license": "BSD-2-Clause",
+    "source": "https://github.com/protegeproject/protege"
+  },
+  {
+    "name": "WebProtege",
+    "category": "Ontology editor",
+    "description": "Cloud-based collaborative OWL ontology editor from Stanford",
+    "url": "https://webprotege.stanford.edu/",
+    "license": "BSD-2-Clause",
+    "source": "https://github.com/protegeproject/webprotege"
+  },
+  {
+    "name": "TopBraid EDG",
+    "category": "Ontology editor / Governance",
+    "description": "Enterprise data governance platform on RDF knowledge graphs and SHACL",
+    "url": "https://www.topquadrant.com/topbraid-edg/",
+    "license": "proprietary",
+    "source": "https://www.topquadrant.com/topbraid-edg/"
+  },
+  {
+    "name": "HermiT",
+    "category": "Reasoner",
+    "description": "OWL 2 DL reasoner using a hypertableau calculus",
+    "url": "http://www.hermit-reasoner.com/",
+    "license": "LGPL-3.0",
+    "source": "https://github.com/owlcs/hermit-reasoner/"
+  },
+  {
+    "name": "Pellet",
+    "category": "Reasoner",
+    "description": "OWL 2 DL reasoner in Java (maintained by Stardog Union)",
+    "url": "https://github.com/stardog-union/pellet",
+    "license": "AGPL-3.0",
+    "source": "https://github.com/stardog-union/pellet"
+  },
+  {
+    "name": "Openllet",
+    "category": "Reasoner",
+    "description": "OWL 2 reasoner in Java built on Pellet (OWL API 5 compatible)",
+    "url": "https://github.com/Galigator/openllet",
+    "license": "AGPL-3.0",
+    "source": "https://github.com/Galigator/openllet"
+  },
+  {
+    "name": "ELK",
+    "category": "Reasoner",
+    "description": "High-performance OWL 2 EL profile reasoner",
+    "url": "https://github.com/liveontologies/elk-reasoner",
+    "license": "Apache-2.0",
+    "source": "https://github.com/liveontologies/elk-reasoner"
+  },
+  {
+    "name": "pySHACL",
+    "category": "SHACL / Validation",
+    "description": "Pure-Python validator for RDF graphs against SHACL shapes (built on RDFLib)",
+    "url": "https://github.com/RDFLib/pySHACL",
+    "license": "Apache-2.0",
+    "source": "https://github.com/RDFLib/pySHACL"
+  },
+  {
+    "name": "TopBraid SHACL API",
+    "category": "SHACL / Validation",
+    "description": "Java SHACL Core + SHACL-SPARQL reference implementation on Apache Jena",
+    "url": "https://github.com/TopQuadrant/shacl",
+    "license": "Apache-2.0",
+    "source": "https://github.com/TopQuadrant/shacl"
+  },
+  {
+    "name": "SHACL Play!",
+    "category": "SHACL / Validation",
+    "description": "Web-based SHACL validator plus docs/diagram/SHACL generators (Sparna)",
+    "url": "https://shacl-play.sparna.fr/",
+    "license": "LGPL-3.0",
+    "source": "https://github.com/sparna-git/shacl-play"
+  },
+  {
+    "name": "RMLMapper",
+    "category": "Mapping / ETL",
+    "description": "Java engine executing RML rules to generate RDF from CSV, JSON, XML, DBs, APIs",
+    "url": "https://github.com/RMLio/rmlmapper-java",
+    "license": "MIT",
+    "source": "https://github.com/RMLio/rmlmapper-java"
+  },
+  {
+    "name": "Ontop",
+    "category": "Mapping / ETL (OBDA)",
+    "description": "Virtual knowledge graph system exposing relational DBs as RDF via SPARQL-to-SQL",
+    "url": "https://ontop-vkg.org/",
+    "license": "Apache-2.0",
+    "source": "https://github.com/ontop/ontop"
+  },
+  {
+    "name": "Morph-KGC",
+    "category": "Mapping / ETL",
+    "description": "Scalable RDF KG construction engine for R2RML/RML mappings (Python)",
+    "url": "https://github.com/morph-kgc/morph-kgc",
+    "license": "Apache-2.0",
+    "source": "https://github.com/morph-kgc/morph-kgc"
+  },
+  {
+    "name": "D2RQ",
+    "category": "Mapping / ETL",
+    "description": "Maps relational databases to virtual RDF graphs with a SPARQL-to-SQL engine",
+    "url": "http://d2rq.org/",
+    "license": "Apache-2.0",
+    "source": "https://github.com/d2rq/d2rq"
+  },
+  {
+    "name": "PyKEEN",
+    "category": "KG embeddings / ML",
+    "description": "Python library for training and evaluating knowledge graph embedding models",
+    "url": "https://github.com/pykeen/pykeen",
+    "license": "MIT",
+    "source": "https://github.com/pykeen/pykeen"
+  },
+  {
+    "name": "AmpliGraph",
+    "category": "KG embeddings / ML",
+    "description": "TensorFlow-based library for knowledge graph representation learning",
+    "url": "https://github.com/Accenture/AmpliGraph",
+    "license": "Apache-2.0",
+    "source": "https://github.com/Accenture/AmpliGraph"
+  },
+  {
+    "name": "DGL-KE",
+    "category": "KG embeddings / ML",
+    "description": "Scalable package for large-scale knowledge graph embeddings, built on DGL",
+    "url": "https://github.com/awslabs/dgl-ke",
+    "license": "Apache-2.0",
+    "source": "https://github.com/awslabs/dgl-ke"
+  },
+  {
+    "name": "OpenKE",
+    "category": "KG embeddings / ML",
+    "description": "Open-source knowledge embedding toolkit (PyTorch/TensorFlow) from Tsinghua NLP",
+    "url": "https://github.com/thunlp/OpenKE",
+    "license": "MIT",
+    "source": "https://github.com/thunlp/OpenKE"
+  },
+  {
+    "name": "LibKGE",
+    "category": "KG embeddings / ML",
+    "description": "PyTorch KG embedding library for reproducible research and HPO studies",
+    "url": "https://github.com/uma-pi1/kge",
+    "license": "MIT",
+    "source": "https://github.com/uma-pi1/kge"
+  },
+  {
+    "name": "WebVOWL",
+    "category": "Visualization",
+    "description": "Interactive web-based visualizer for OWL ontologies using the VOWL notation",
+    "url": "http://vowl.visualdataweb.org/webvowl.html",
+    "license": "MIT",
+    "source": "https://github.com/VisualDataWeb/WebVOWL"
+  },
+  {
+    "name": "Gephi",
+    "category": "Visualization",
+    "description": "Open-source desktop platform for visualizing and analyzing large graphs",
+    "url": "https://gephi.org/",
+    "license": "CDDL-1.0 / GPL-3.0",
+    "source": "https://github.com/gephi/gephi"
+  },
+  {
+    "name": "yEd",
+    "category": "Visualization",
+    "description": "Free desktop graph/diagram editor from yWorks",
+    "url": "https://www.yworks.com/products/yed",
+    "license": "proprietary freeware",
+    "source": "https://www.yworks.com/products/yed"
+  },
+  {
+    "name": "YASGUI",
+    "category": "Query",
+    "description": "Browser-based SPARQL query editor with autocompletion and result views",
+    "url": "https://github.com/TriplyDB/Yasgui",
+    "license": "MIT",
+    "source": "https://github.com/TriplyDB/Yasgui"
+  }
+]

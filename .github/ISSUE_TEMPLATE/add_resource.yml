@@ -1,0 +1,52 @@
+name: "🧩 Add a resource (ontology / tool / standard / dataset)"
+description: Suggest a manufacturing ontology, KG tool, standard, or open dataset for the catalogs.
+title: "[resource] <name>"
+labels: ["resource", "catalog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! These catalogs are only as good as their verifiability. Please link a homepage,
+        source repository, registry entry, or specification page.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Resource type
+      options: [ontology, tool, standard, dataset]
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: One-line description / scope
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL (homepage, repo, registry, or spec — must resolve)
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License (if stated on the source; otherwise leave blank)
+  - type: input
+    id: source
+    attributes:
+      label: Verification source (where you confirmed the above)
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verification
+      options:
+        - label: I did not invent any field; unknown fields are left blank.
+          required: true

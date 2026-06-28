@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manufacturing Knowledge Graphs — Searchable Literature Database & Catalog</title>
+<meta name="description" content="A searchable, open database of research on knowledge graphs in manufacturing: Industry 4.0/5.0, digital twins, manufacturing ontologies, predictive maintenance and semantic interoperability. Filter 60+ curated papers (2016–2026), browse ontology/tool/standard catalogs, and export BibTeX.">
+<meta name="keywords" content="knowledge graphs manufacturing, manufacturing knowledge graph, Industry 4.0 knowledge graph, Industry 5.0 knowledge graph, digital twin knowledge graph, manufacturing ontology, industrial knowledge graph, semantic manufacturing, manufacturing semantic web, industrial ontology">
+<link rel="canonical" href="https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/">
+<!-- Open Graph / social -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manufacturing Knowledge Graphs — Searchable Literature Database">
+<meta property="og:description" content="Open, searchable database & catalog for knowledge graphs in manufacturing: papers, ontologies, tools and standards.">
+<meta property="og:url" content="https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Manufacturing Knowledge Graphs — Literature Database",
+  "description": "A curated, machine-readable database of research on knowledge graphs in manufacturing (2016–2026), with catalogs of manufacturing ontologies, knowledge-graph tools and industrial standards.",
+  "keywords": ["knowledge graphs", "manufacturing", "Industry 4.0", "digital twin", "ontology", "semantic web"],
+  "license": "https://opensource.org/licenses/MIT",
+  "creator": {"@type": "Person", "name": "Jorge Martinez-Gil"},
+  "url": "https://jorge-martinez-gil.github.io/knowledge-graphs-manufacturing/",
+  "isAccessibleForFree": true
+}
+</script>
+<style>
+  :root{
+    --ink:#16243a; --muted:#5b6b82; --line:#e3e8ef; --bg:#f7f9fc; --card:#fff;
+    --accent:#1f6feb; --accent2:#0a9396; --accent3:#ee9b00; --chip:#eef3fb;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",system-ui,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header.hero{background:linear-gradient(135deg,#16243a,#1f3a5f);color:#fff;padding:32px 20px 26px}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 18px}
+  .hero h1{margin:0 0 6px;font-size:27px;letter-spacing:.2px}
+  .hero p{margin:0;color:#c8d6ea;max-width:760px}
+  .hero .links{margin-top:14px;display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
+  .hero .links a{color:#fff;border:1px solid rgba(255,255,255,.35);padding:6px 12px;border-radius:8px}
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+  .stat{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:8px 14px}
+  .stat b{font-size:20px;display:block}
+  .stat span{font-size:12px;color:#c8d6ea}
+  .controls{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:14px 0}
+  .searchbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  #q{flex:1;min-width:220px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff}
+  select{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px;color:var(--ink)}
+  .tagrow{margin-top:10px;display:flex;gap:7px;flex-wrap:wrap}
+  .tag{background:var(--chip);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:4px 11px;font-size:12.5px;cursor:pointer;user-select:none}
+  .tag.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .meta{display:flex;justify-content:space-between;align-items:center;margin:16px 0 8px;color:var(--muted);font-size:13px}
+  .meta a{cursor:pointer}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:12px}
+  .card h3{margin:0 0 5px;font-size:16.5px;line-height:1.35}
+  .card .au{color:var(--muted);font-size:13.5px;margin-bottom:7px}
+  .card .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:13px}
+  .yearpill{background:var(--ink);color:#fff;border-radius:7px;padding:2px 9px;font-weight:600;font-size:12.5px}
+  .venue{color:var(--muted)}
+  .ctags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+  .ctag{background:var(--chip);border-radius:999px;padding:2px 9px;font-size:11.5px;color:#34507a;cursor:pointer}
+  .btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:4px 10px;font-size:12.5px;cursor:pointer;color:var(--ink)}
+  .btn:hover{border-color:var(--accent);color:var(--accent)}
+  footer{color:var(--muted);font-size:13px;padding:26px 0 50px;text-align:center}
+  .empty{padding:40px;text-align:center;color:var(--muted)}
+  dialog{border:none;border-radius:12px;padding:0;max-width:640px;width:92%}
+  dialog::backdrop{background:rgba(10,20,40,.5)}
+  .modal-h{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}
+  .modal-b{padding:14px 16px}
+  pre{background:#0f1b2d;color:#dbe7f5;padding:14px;border-radius:8px;overflow:auto;font-size:12.5px;margin:0}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>Knowledge Graphs in Manufacturing</h1>
+    <p>An open, searchable database of research on <strong>manufacturing knowledge graphs</strong> —
+       Industry 4.0/5.0, digital twins, manufacturing ontologies, predictive maintenance and
+       semantic interoperability — plus curated catalogs of ontologies, tools and standards.</p>
+    <div class="links">
+      <a href="https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing">★ GitHub repository</a>
+      <a href="https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing/blob/main/catalog/ontologies.md">Ontology catalog</a>
+      <a href="https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing/blob/main/catalog/tools.md">Tools catalog</a>
+      <a href="https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing/blob/main/catalog/standards.md">Standards</a>
+      <a href="https://doi.org/10.1007/978-3-031-46452-2_4">Cite the survey ↗</a>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="searchbar">
+      <input id="q" type="search" placeholder="Search title, author, venue…  (e.g. digital twin, root cause, Bosch)" autocomplete="off">
+      <select id="year"><option value="">All years</option></select>
+      <select id="sort">
+        <option value="year-desc">Newest first</option>
+        <option value="year-asc">Oldest first</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </div>
+    <div class="tagrow" id="tags"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="meta">
+    <span id="count"></span>
+    <a id="reset">clear filters</a>
+  </div>
+  <div id="list"></div>
+  <div class="empty" id="empty" style="display:none">No papers match your filters.</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Companion to <a href="https://doi.org/10.1007/978-3-031-46452-2_4">Martinez-Gil et al. (2024), “Examining the Adoption of Knowledge Graphs in the Manufacturing Industry”</a> ·
+    Data: <a href="https://github.com/jorge-martinez-gil/knowledge-graphs-manufacturing/blob/main/data/papers.json">papers.json</a> ·
+    MIT-licensed · Contributions welcome.
+  </div>
+</footer>
+
+<dialog id="bibdlg">
+  <div class="modal-h"><strong>BibTeX</strong><button class="btn" onclick="document.getElementById('bibdlg').close()">close</button></div>
+  <div class="modal-b">
+    <pre id="bibtext"></pre>
+    <div style="margin-top:10px"><button class="btn" id="copybib">Copy to clipboard</button></div>
+  </div>
+</dialog>
+
+<script>
+const LABELS = {
+  "kg-construction":"KG construction","interoperability":"Interoperability","survey":"Surveys",
+  "process-planning":"Process planning","gnn-embedding":"Embeddings & GNNs","ontology":"Ontologies",
+  "root-cause":"Root-cause","llm-rag":"LLMs & GraphRAG","cps":"Cyber-physical systems",
+  "digital-twin":"Digital twins","product-design":"Product design","quality-control":"Quality control",
+  "standards":"Standards","process-optimization":"Process optimization","iiot":"IIoT",
+  "explainability":"Explainability","predictive-maintenance":"Predictive maintenance",
+  "supply-chain":"Supply chain","materials":"Materials","additive-manufacturing":"Additive mfg",
+  "human-ai":"Human-AI teaming","resource-allocation":"Resource allocation",
+  "factory-planning":"Factory planning","robotics":"Robotics"
+};
+let PAPERS=[], activeTags=new Set();
+const $ = s => document.querySelector(s);
+
+function bibType(t){return ({journal:"article",conference:"inproceedings",workshop:"inproceedings",chapter:"incollection",preprint:"misc"})[t]||"misc";}
+function bibtex(p){
+  const authors=p.authors.filter(a=>a!=="et al.").join(" and ");
+  const cont = bibType(p.type)==="article" ? `  journal = {${p.venue}},` :
+               (p.type==="preprint" ? `  howpublished = {${p.venue}},` : `  booktitle = {${p.venue}},`);
+  return `@${bibType(p.type)}{${p.id},
+  title = {${p.title}},
+  author = {${authors}},
+  year = {${p.year}},
+${cont}${p.doi?`\n  doi = {${p.doi}},`:""}
+  url = {${p.url}}
+}`;
+}
+function esc(s){return s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+
+function render(){
+  const q=$("#q").value.toLowerCase().trim();
+  const yr=$("#year").value;
+  const sort=$("#sort").value;
+  let rows=PAPERS.filter(p=>{
+    if(yr && String(p.year)!==yr) return false;
+    if(activeTags.size && ![...activeTags].every(t=>p.tags.includes(t))) return false;
+    if(q){
+      const hay=(p.title+" "+p.authors.join(" ")+" "+p.venue+" "+p.tags.join(" ")).toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  rows.sort((a,b)=> sort==="title" ? a.title.localeCompare(b.title)
+                  : sort==="year-asc" ? a.year-b.year || a.title.localeCompare(b.title)
+                  : b.year-a.year || a.title.localeCompare(b.title));
+  $("#count").textContent=`${rows.length} of ${PAPERS.length} papers`;
+  $("#empty").style.display = rows.length? "none":"block";
+  $("#list").innerHTML = rows.map(p=>`
+    <article class="card">
+      <h3><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+      <div class="au">${esc(p.authors.join(", "))}</div>
+      <div class="row">
+        <span class="yearpill">${p.year}</span>
+        <span class="venue">${esc(p.venue)}</span>
+        ${p.doi?`<a href="${p.url}" target="_blank" rel="noopener">DOI ↗</a>`:`<a href="${p.url}" target="_blank" rel="noopener">link ↗</a>`}
+        <button class="btn" data-bib="${p.id}">BibTeX</button>
+      </div>
+      <div class="ctags">${p.tags.map(t=>`<span class="ctag" data-tag="${t}">${LABELS[t]||t}</span>`).join("")}</div>
+    </article>`).join("");
+}
+
+function buildControls(){
+  const years=[...new Set(PAPERS.map(p=>p.year))].sort((a,b)=>b-a);
+  $("#year").innerHTML='<option value="">All years</option>'+years.map(y=>`<option>${y}</option>`).join("");
+  const counts={};PAPERS.forEach(p=>p.tags.forEach(t=>counts[t]=(counts[t]||0)+1));
+  const tags=Object.keys(counts).sort((a,b)=>counts[b]-counts[a]);
+  $("#tags").innerHTML=tags.map(t=>`<span class="tag" data-tag="${t}">${LABELS[t]||t} <small>${counts[t]}</small></span>`).join("");
+  const span=`${Math.min(...years)}–${Math.max(...years)}`;
+  $("#stats").innerHTML=`
+    <div class="stat"><b>${PAPERS.length}</b><span>curated papers</span></div>
+    <div class="stat"><b>${span}</b><span>years covered</span></div>
+    <div class="stat"><b>${tags.length}</b><span>research themes</span></div>
+    <div class="stat"><b>24 · 33 · 18</b><span>ontologies · tools · standards</span></div>`;
+}
+
+document.addEventListener("click",e=>{
+  const tagEl=e.target.closest("[data-tag]");
+  if(tagEl){const t=tagEl.dataset.tag; activeTags.has(t)?activeTags.delete(t):activeTags.add(t);
+    document.querySelectorAll('#tags .tag').forEach(el=>el.classList.toggle('active',activeTags.has(el.dataset.tag)));
+    render(); return;}
+  const bibEl=e.target.closest("[data-bib]");
+  if(bibEl){const p=PAPERS.find(x=>x.id===bibEl.dataset.bib);$("#bibtext").textContent=bibtex(p);$("#bibdlg").showModal();}
+});
+$("#q").addEventListener("input",render);
+$("#year").addEventListener("change",render);
+$("#sort").addEventListener("change",render);
+$("#reset").addEventListener("click",()=>{$("#q").value="";$("#year").value="";activeTags.clear();
+  document.querySelectorAll('#tags .tag').forEach(el=>el.classList.remove('active'));render();});
+$("#copybib").addEventListener("click",()=>navigator.clipboard.writeText($("#bibtext").textContent));
+
+fetch("papers.json").then(r=>r.json()).then(d=>{PAPERS=d;buildControls();render();})
+  .catch(()=>{$("#list").innerHTML='<div class="empty">Could not load papers.json. If viewing locally, serve the folder over HTTP (e.g. <code>python3 -m http.server</code>).</div>';});
+</script>
+</body>
+</html>

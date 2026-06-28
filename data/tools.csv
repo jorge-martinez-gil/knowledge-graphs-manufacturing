@@ -1,0 +1,34 @@
+name,category,description,url,license,source
+GraphDB,Triplestore / Graph DB,"Enterprise RDF triplestore by Ontotext with reasoning, SHACL and SPARQL",https://www.ontotext.com/products/graphdb/,proprietary (Workbench UI Apache-2.0),https://github.com/Ontotext-AD/graphdb-workbench
+Apache Jena / Fuseki,Triplestore / Graph DB,Java RDF framework with TDB store and Fuseki SPARQL 1.1 server,https://jena.apache.org/,Apache-2.0,https://github.com/apache/jena
+Stardog,Triplestore / Graph DB,"Enterprise knowledge graph platform with RDF storage, reasoning and virtualization",https://www.stardog.com/,proprietary (free tier),https://www.stardog.com/
+Virtuoso,Triplestore / Graph DB,"Multi-model RDBMS, RDF triplestore and SPARQL/Linked Data server",https://github.com/openlink/virtuoso-opensource,GPL-2.0 (open edition),https://github.com/openlink/virtuoso-opensource
+Blazegraph,Triplestore / Graph DB,High-performance RDF/SPARQL graph database (powers Wikidata Query Service),https://github.com/blazegraph/database,GPL-2.0 (dual),https://github.com/blazegraph/database
+Neo4j,Triplestore / Graph DB,Native property-graph database with the Cypher query language,https://github.com/neo4j/neo4j,GPLv3 (Community),https://github.com/neo4j/neo4j
+RDFox,Triplestore / Graph DB,"In-memory RDF store with Datalog (OWL 2 RL) and SWRL reasoning, SPARQL",https://www.oxfordsemantic.tech/rdfox,proprietary,https://www.oxfordsemantic.tech/rdfox
+Amazon Neptune,Triplestore / Graph DB,Fully managed AWS graph database supporting RDF/SPARQL and property graphs,https://aws.amazon.com/neptune/,proprietary (managed),https://docs.aws.amazon.com/neptune/latest/userguide/intro.html
+Oxigraph,Triplestore / Graph DB,"SPARQL 1.1 graph database written in Rust, based on RocksDB",https://github.com/oxigraph/oxigraph,Apache-2.0 OR MIT,https://github.com/oxigraph/oxigraph
+QLever,Triplestore / Graph DB,Very fast SPARQL engine scaling to trillions of triples with text search,https://github.com/ad-freiburg/qlever,Apache-2.0,https://github.com/ad-freiburg/qlever
+Protege,Ontology editor,Stanford's widely used OWL 2 ontology editor with reasoner integration,https://protege.stanford.edu/,BSD-2-Clause,https://github.com/protegeproject/protege
+WebProtege,Ontology editor,Cloud-based collaborative OWL ontology editor from Stanford,https://webprotege.stanford.edu/,BSD-2-Clause,https://github.com/protegeproject/webprotege
+TopBraid EDG,Ontology editor / Governance,Enterprise data governance platform on RDF knowledge graphs and SHACL,https://www.topquadrant.com/topbraid-edg/,proprietary,https://www.topquadrant.com/topbraid-edg/
+HermiT,Reasoner,OWL 2 DL reasoner using a hypertableau calculus,http://www.hermit-reasoner.com/,LGPL-3.0,https://github.com/owlcs/hermit-reasoner/
+Pellet,Reasoner,OWL 2 DL reasoner in Java (maintained by Stardog Union),https://github.com/stardog-union/pellet,AGPL-3.0,https://github.com/stardog-union/pellet
+Openllet,Reasoner,OWL 2 reasoner in Java built on Pellet (OWL API 5 compatible),https://github.com/Galigator/openllet,AGPL-3.0,https://github.com/Galigator/openllet
+ELK,Reasoner,High-performance OWL 2 EL profile reasoner,https://github.com/liveontologies/elk-reasoner,Apache-2.0,https://github.com/liveontologies/elk-reasoner
+pySHACL,SHACL / Validation,Pure-Python validator for RDF graphs against SHACL shapes (built on RDFLib),https://github.com/RDFLib/pySHACL,Apache-2.0,https://github.com/RDFLib/pySHACL
+TopBraid SHACL API,SHACL / Validation,Java SHACL Core + SHACL-SPARQL reference implementation on Apache Jena,https://github.com/TopQuadrant/shacl,Apache-2.0,https://github.com/TopQuadrant/shacl
+SHACL Play!,SHACL / Validation,Web-based SHACL validator plus docs/diagram/SHACL generators (Sparna),https://shacl-play.sparna.fr/,LGPL-3.0,https://github.com/sparna-git/shacl-play
+RMLMapper,Mapping / ETL,"Java engine executing RML rules to generate RDF from CSV, JSON, XML, DBs, APIs",https://github.com/RMLio/rmlmapper-java,MIT,https://github.com/RMLio/rmlmapper-java
+Ontop,Mapping / ETL (OBDA),Virtual knowledge graph system exposing relational DBs as RDF via SPARQL-to-SQL,https://ontop-vkg.org/,Apache-2.0,https://github.com/ontop/ontop
+Morph-KGC,Mapping / ETL,Scalable RDF KG construction engine for R2RML/RML mappings (Python),https://github.com/morph-kgc/morph-kgc,Apache-2.0,https://github.com/morph-kgc/morph-kgc
+D2RQ,Mapping / ETL,Maps relational databases to virtual RDF graphs with a SPARQL-to-SQL engine,http://d2rq.org/,Apache-2.0,https://github.com/d2rq/d2rq
+PyKEEN,KG embeddings / ML,Python library for training and evaluating knowledge graph embedding models,https://github.com/pykeen/pykeen,MIT,https://github.com/pykeen/pykeen
+AmpliGraph,KG embeddings / ML,TensorFlow-based library for knowledge graph representation learning,https://github.com/Accenture/AmpliGraph,Apache-2.0,https://github.com/Accenture/AmpliGraph
+DGL-KE,KG embeddings / ML,"Scalable package for large-scale knowledge graph embeddings, built on DGL",https://github.com/awslabs/dgl-ke,Apache-2.0,https://github.com/awslabs/dgl-ke
+OpenKE,KG embeddings / ML,Open-source knowledge embedding toolkit (PyTorch/TensorFlow) from Tsinghua NLP,https://github.com/thunlp/OpenKE,MIT,https://github.com/thunlp/OpenKE
+LibKGE,KG embeddings / ML,PyTorch KG embedding library for reproducible research and HPO studies,https://github.com/uma-pi1/kge,MIT,https://github.com/uma-pi1/kge
+WebVOWL,Visualization,Interactive web-based visualizer for OWL ontologies using the VOWL notation,http://vowl.visualdataweb.org/webvowl.html,MIT,https://github.com/VisualDataWeb/WebVOWL
+Gephi,Visualization,Open-source desktop platform for visualizing and analyzing large graphs,https://gephi.org/,CDDL-1.0 / GPL-3.0,https://github.com/gephi/gephi
+yEd,Visualization,Free desktop graph/diagram editor from yWorks,https://www.yworks.com/products/yed,proprietary freeware,https://www.yworks.com/products/yed
+YASGUI,Query,Browser-based SPARQL query editor with autocompletion and result views,https://github.com/TriplyDB/Yasgui,MIT,https://github.com/TriplyDB/Yasgui
