@@ -1,4 +1,4 @@
-# Knowledge Graphs in Manufacturing — Literature Database, Catalogs & Benchmark
+# Knowledge Graphs in Manufacturing: Literature Database, Catalogs & Benchmark
 
 > The open, living reference for **knowledge graphs in manufacturing**: a searchable
 > literature database, curated ontology/tool/standard catalogs, a taxonomy, publication-quality
